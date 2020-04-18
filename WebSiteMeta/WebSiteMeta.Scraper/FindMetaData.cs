@@ -4,26 +4,38 @@ using System.Diagnostics.Contracts;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using WebSiteMeta.Scraper.HttpClientWrapper;
 
 namespace WebSiteMeta.Scraper
 {
     public class FindMetaData
     {
-        public Metadata MetaData { get; set; }
+        private readonly IHttpClientWrapper _httpClientWrapper;
 
-        public FindMetaData()
+        public Metadata MetaData { get; set; }
+        
+
+        public FindMetaData(IHttpClientWrapper httpClientWrapper)
         {
-            var httpClient = new HttpClient();
+            _httpClientWrapper = httpClientWrapper;
         }
 
-        public FindMetaDataResult Run(string url)
+        public async Task<FindMetaDataResult> Run(string url)
         {
-            if (!ValidateUrl(url))
+            if (!ValidateUrl(url.ToLowerInvariant()))
             {
                 return Fail($"Invalid URL: {url}");
             }
 
             var data = new Metadata();
+            var httpDataResult = await _httpClientWrapper.GetHttpData(url);
+            if (!httpDataResult.isSuccess)
+            {
+                return Fail($"Unable to make call to {url}");
+            }
+
+            // Parse here
 
             return Success(data);
         }
