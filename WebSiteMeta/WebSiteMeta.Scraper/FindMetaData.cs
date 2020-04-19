@@ -12,7 +12,7 @@ using WebSiteMeta.Scraper.HttpClientWrapper;
 
 namespace WebSiteMeta.Scraper
 {
-    public class FindMetaData
+    public class FindMetaData : IFindMetaData
     {
         private readonly IHttpClientWrapper _httpClientWrapper;
        
