@@ -11,9 +11,10 @@ namespace WebSiteMeta.Tests
     public class ScrapeSiteTest
     {
         FindMetaData _scraper;
-        public ScrapeSiteTest()
+
+        private void SetupTest(string testFile)
         {
-            string text = File.ReadAllText(@"SampleSites\simpletest.txt");
+            string text = File.ReadAllText(testFile);
 
             var httpClientWrapper = Substitute.For<IHttpClientWrapper>();
             httpClientWrapper.GetHttpData(Arg.Any<string>())
@@ -31,6 +32,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_ValidUrl_Runs(string url)
         {
             // Arrange            
+            SetupTest(@"SampleSites\simpletest.txt");
 
             // Act
             var result = await _scraper.Run(url);
@@ -47,6 +49,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_InvalidUrl_Fails(string url)
         {
             // Arrange            
+            SetupTest(@"SampleSites\simpletest.txt");
 
             // Act
             var result = await _scraper.Run(url);
@@ -56,9 +59,10 @@ namespace WebSiteMeta.Tests
         }
 
         [Fact]
-        public async Task RunScrape_CallsUrl()
+        public async Task RunScrape_SimpleTest_ParseSite()
         {
-            // Arrange                        
+            // Arrange
+            SetupTest(@"SampleSites\simpletest.txt");
 
             // Act
             var result = await _scraper.Run("www.test.com");
@@ -67,6 +71,21 @@ namespace WebSiteMeta.Tests
             Assert.Equal("Test site name", result.Metadata.Title);
             Assert.Equal("Test site description", result.Metadata.Description);
             Assert.Equal("https://testsite.com", result.Metadata.Url);
+        }
+
+        [Fact]
+        public async Task RunScrape_Wordpress_CallsUrl()
+        {
+            // Arrange
+            SetupTest(@"SampleSites\pmichaels.net.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal("The Long Walk", result.Metadata.Title);
+            Assert.Equal("A blog about one man's journey through code... and some pictures of the Peak District", result.Metadata.Description);
+            Assert.Equal("https://www.pmichaels.net/", result.Metadata.Url);
         }
 
     }
