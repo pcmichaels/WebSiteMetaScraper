@@ -1,6 +1,9 @@
-﻿using System;
+﻿using HtmlAgilityPack;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
+using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -35,9 +38,64 @@ namespace WebSiteMeta.Scraper
                 return Fail($"Unable to make call to {url}");
             }
 
-            // Parse here
+            var pageSource = WebUtility.HtmlDecode(httpDataResult.data);
+
+            var htmlDoc = new HtmlDocument();
+            htmlDoc.LoadHtml(pageSource);
+
+            var headNode = htmlDoc.DocumentNode.SelectSingleNode("//head");
+            data.Title = GetTitle(headNode);
+            data.Description = GetDescription(headNode);
+            data.Url = GetUrl(headNode);
 
             return Success(data);
+        }
+
+        private string GetUrl(HtmlNode headNode)
+        {
+            var node = headNode.SelectSingleNode($"//link[@rel='canonical']");
+            string link = node.Attributes.FirstOrDefault(a => a.Name == "href")?.Value;
+            if (!string.IsNullOrWhiteSpace(node.InnerText)) return node.InnerText;
+
+            return GetProperty(headNode, "meta", "property", "og:url");
+        }
+
+        private string GetDescription(HtmlNode headNode)
+        {
+            string description = GetProperty(headNode, "meta", "name", "description");
+            if (!string.IsNullOrWhiteSpace(description)) return description;
+            
+            description = GetProperty(headNode, "meta", "property", "og:description");            
+
+            return description;
+
+        }
+
+        private string GetTitle(HtmlNode headNode)
+        {
+            string title = GetProperty(headNode, "meta", "property", "og:site_name");
+            if (!string.IsNullOrWhiteSpace(title)) return title;
+            
+            title = GetProperty(headNode, "title", null, null);
+            if (!string.IsNullOrWhiteSpace(title)) return title;
+
+            title = GetProperty(headNode, "meta", "property", "og:title");
+            
+            return title;
+        }
+
+        private string GetProperty(HtmlNode headNode, string type, string attribute, string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                var node = headNode.SelectSingleNode($"//{type}");
+                return node.InnerText;
+            }
+            else
+            {
+                var node = headNode.SelectSingleNode($"//{type}[@{attribute}='{name}']");
+                return node.Attributes.FirstOrDefault(a => a.Name == "content").Value;
+            }            
         }
 
         private FindMetaDataResult Success(Metadata data)

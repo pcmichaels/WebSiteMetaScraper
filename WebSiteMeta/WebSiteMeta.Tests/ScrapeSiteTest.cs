@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NSubstitute;
+using System;
+using System.IO;
 using System.Threading.Tasks;
 using WebSiteMeta.Scraper;
 using WebSiteMeta.Scraper.HttpClientWrapper;
@@ -11,7 +13,11 @@ namespace WebSiteMeta.Tests
         FindMetaData _scraper;
         public ScrapeSiteTest()
         {
-            var httpClientWrapper = new EmptyHttpClientWrapper("");
+            string text = File.ReadAllText(@"SampleSites\simpletest.txt");
+
+            var httpClientWrapper = Substitute.For<IHttpClientWrapper>();
+            httpClientWrapper.GetHttpData(Arg.Any<string>())
+                .Returns((true, text));
             _scraper = new FindMetaData(httpClientWrapper);
         }
 
@@ -58,7 +64,9 @@ namespace WebSiteMeta.Tests
             var result = await _scraper.Run("www.test.com");
 
             // Assert
-            Assert.Equal("Test Site", result.Metadata.Title);
+            Assert.Equal("Test site name", result.Metadata.Title);
+            Assert.Equal("Test site description", result.Metadata.Description);
+            Assert.Equal("https://testsite.com", result.Metadata.Url);
         }
 
     }
