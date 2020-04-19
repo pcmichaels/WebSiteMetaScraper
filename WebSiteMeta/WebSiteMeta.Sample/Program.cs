@@ -14,11 +14,23 @@ namespace WebSiteMeta.Sample
             var httpClientWrapper = new DefaultHttpClientWrapper(httpClient);
 
             var wsm = new FindMetaData(httpClientWrapper);
-            await wsm.Run(args[0]);
-            var result = wsm.MetaData;
-            Console.WriteLine($"Url: {result.Url}");
-            Console.WriteLine($"Title: {result.Title}");
-            Console.WriteLine($"Description: {result.Description}");                        
+            var result = await wsm.Run(args[0]);
+            
+            if (!result.IsSuccess)
+            {
+                Console.WriteLine("Errors occured dueing the call");
+                foreach(var error in result.Errors)
+                {
+                    Console.WriteLine(error);
+                }
+                return;
+            }
+
+            Console.WriteLine($"Url: {result.Metadata.Url}");
+            Console.WriteLine($"Title: {result.Metadata.Title}");
+            Console.WriteLine($"Description: {result.Metadata.Description}");
+
+            Console.ReadLine();
         }
     }
 }

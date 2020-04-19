@@ -15,10 +15,7 @@ namespace WebSiteMeta.Scraper
     public class FindMetaData
     {
         private readonly IHttpClientWrapper _httpClientWrapper;
-
-        public Metadata MetaData { get; set; }
-        
-
+       
         public FindMetaData(IHttpClientWrapper httpClientWrapper)
         {
             _httpClientWrapper = httpClientWrapper;

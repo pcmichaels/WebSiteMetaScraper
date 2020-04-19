@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebSiteMeta.Sample": {
+      "commandName": "Project",
+      "commandLineArgs": "https://www.pmichaels.net"
+    }
+  }
+}
