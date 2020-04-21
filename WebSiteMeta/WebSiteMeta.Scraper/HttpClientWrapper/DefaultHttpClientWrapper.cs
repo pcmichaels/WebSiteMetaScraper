@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebSiteMeta.Scraper.HttpClientWrapper
 {
+    /// <summary>
+    /// An implementation of the client wrapper that makes a call 
+    /// using the httpClient that has been passed in
+    /// </summary>
     public class DefaultHttpClientWrapper : IHttpClientWrapper
     {
         private readonly HttpClient _httpClient;

@@ -14,7 +14,20 @@ namespace WebSiteMeta.Sample
             var httpClientWrapper = new DefaultHttpClientWrapper(httpClient);
 
             var wsm = new FindMetaData(httpClientWrapper);
-            var result = await wsm.Run(args[0]);
+
+            var url = args[0];
+
+            bool isValid = wsm.ValidateUrl(url);
+            if (isValid)
+            {
+                Console.WriteLine(@$"Url is valid");
+            }
+            else
+            {
+                Console.WriteLine(@$"Url is invalid");
+            }
+
+            var result = await wsm.Run(url);
             
             if (!result.IsSuccess)
             {

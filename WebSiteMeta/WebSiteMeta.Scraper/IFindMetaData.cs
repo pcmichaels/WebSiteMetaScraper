@@ -7,6 +7,7 @@ namespace WebSiteMeta.Scraper
 {
     public interface IFindMetaData
     {
+        bool ValidateUrl(string url);
         Task<FindMetaDataResult> Run(string url);
     }
 }

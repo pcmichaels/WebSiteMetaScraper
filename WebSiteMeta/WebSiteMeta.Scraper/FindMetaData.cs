@@ -112,7 +112,7 @@ namespace WebSiteMeta.Scraper
             return findMetaDataResult;
         }
 
-        private bool ValidateUrl(string url)
+        public bool ValidateUrl(string url)
         {
             if (!url.Contains("//"))
             {
