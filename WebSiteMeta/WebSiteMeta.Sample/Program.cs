@@ -15,7 +15,7 @@ namespace WebSiteMeta.Sample
 
             var wsm = new FindMetaData(httpClientWrapper);
 
-            var url = args[0];
+            var url = wsm.CleanUrl(args[0]);
 
             bool isValid = wsm.ValidateUrl(url);
             if (isValid)
