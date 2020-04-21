@@ -23,16 +23,17 @@ namespace WebSiteMeta.Scraper
 
         public async Task<FindMetaDataResult> Run(string url)
         {
-            if (!ValidateUrl(url.ToLowerInvariant()))
+            string cleanUrl = CleanUrl(url);
+            if (!ValidateUrl(cleanUrl))
             {
-                return Fail($"Invalid URL: {url}");
+                return Fail($"Invalid URL: {cleanUrl}");
             }
 
             var data = new Metadata();
-            var httpDataResult = await _httpClientWrapper.GetHttpData(url);
+            var httpDataResult = await _httpClientWrapper.GetHttpData(cleanUrl);
             if (!httpDataResult.isSuccess)
             {
-                return Fail($"Unable to make call to {url}");
+                return Fail($"Unable to make call to {cleanUrl}");
             }
 
             var pageSource = WebUtility.HtmlDecode(httpDataResult.data);
@@ -112,13 +113,20 @@ namespace WebSiteMeta.Scraper
             return findMetaDataResult;
         }
 
-        public bool ValidateUrl(string url)
+        public string CleanUrl(string url)
         {
-            if (!url.Contains("//"))
+            string cleanUrl = url;
+
+            if (!cleanUrl.Contains("//"))
             {
-                url = $"https://{url}";
+                cleanUrl = $"https://{url}";
             }
 
+            return cleanUrl.ToLowerInvariant();
+        }
+
+        public bool ValidateUrl(string url)
+        {
             if (!Uri.IsWellFormedUriString(url, UriKind.Absolute))
                 return false;
 

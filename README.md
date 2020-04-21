@@ -1,2 +1,7 @@
 # WebSiteMetaScraper
-Scrape sites for HTML metadata
+A simple library that validates a URL, and scrapes the site for metadata.
+
+
+# Contribution
+
+PRs are welcome, but please check first.
