@@ -52,8 +52,11 @@ namespace WebSiteMeta.Scraper
         private string GetUrl(HtmlNode headNode)
         {
             var node = headNode.SelectSingleNode($"//link[@rel='canonical']");
-            string link = node.Attributes.FirstOrDefault(a => a.Name == "href")?.Value;
-            if (!string.IsNullOrWhiteSpace(node.InnerText)) return node.InnerText;
+            if (node != null)
+            {
+                string link = node.Attributes.FirstOrDefault(a => a.Name == "href")?.Value;
+                if (!string.IsNullOrWhiteSpace(node.InnerText)) return node.InnerText;
+            }
 
             return GetProperty(headNode, "meta", "property", "og:url");
         }
@@ -87,13 +90,17 @@ namespace WebSiteMeta.Scraper
             if (string.IsNullOrWhiteSpace(name))
             {
                 var node = headNode.SelectSingleNode($"//{type}");
-                return node.InnerText;
+                if (node != null) return node.InnerText;
             }
             else
             {
                 var node = headNode.SelectSingleNode($"//{type}[@{attribute}='{name}']");
-                return node.Attributes.FirstOrDefault(a => a.Name == "content").Value;
-            }            
+                if (node != null)
+                {
+                    return node.Attributes.FirstOrDefault(a => a.Name == "content").Value;
+                }
+            }
+            return null;
         }
 
         private FindMetaDataResult Success(Metadata data)

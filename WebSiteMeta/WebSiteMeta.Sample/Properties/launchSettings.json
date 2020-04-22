@@ -2,7 +2,7 @@
   "profiles": {
     "WebSiteMeta.Sample": {
       "commandName": "Project",
-      "commandLineArgs": "https://www.pmichaels.net"
+      "commandLineArgs": "https://www.pmichaels.net www.te stackoverflow.com microsoft.com https://github.com http://sun.com"
     }
   }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,8 +22,17 @@ namespace WebSiteMeta.Scraper.HttpClientWrapper
 
         public async Task<(bool, string)> GetHttpData(string url)
         {
-            var result = await _httpClient.GetAsync(url);
-            if (!result.IsSuccessStatusCode) return (false, string.Empty);
+            HttpResponseMessage result;
+
+            try
+            {
+                result = await _httpClient.GetAsync(url);
+                if (!result.IsSuccessStatusCode) return (false, string.Empty);
+            }
+            catch (HttpRequestException ex)
+            {
+                return (false, ex.Message);
+            }
 
             string content = await result.Content.ReadAsStringAsync();
             return (true, content);
