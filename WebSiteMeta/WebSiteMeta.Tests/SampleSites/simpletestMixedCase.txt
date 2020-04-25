@@ -1,0 +1,24 @@
+﻿
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Test Site</title>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.pmichaels.net/xmlrpc.php">
+
+<meta name="Description" content="Test site description"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="CANONICAL" href="https://testsite.com" />
+<link rel="next" href="" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Test site title 2" />
+<meta property="og:description" content="Test site description 2" />
+<meta property="og:Url" content="https://testsite.com" />
+<meta property="og:site_name" content="Test site name" />
+
+</head>
+<body>
+</body>
+</html>

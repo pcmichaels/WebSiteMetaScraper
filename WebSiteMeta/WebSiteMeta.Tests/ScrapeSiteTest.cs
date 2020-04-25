@@ -74,6 +74,21 @@ namespace WebSiteMeta.Tests
         }
 
         [Fact]
+        public async Task RunScrape_SimpleTestMixedCase_ParseSite()
+        {
+            // Arrange
+            SetupTest(@"SampleSites\simpletestMixedCase.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal("Test site name", result.Metadata.Title);
+            Assert.Equal("Test site description", result.Metadata.Description);
+            Assert.Equal("https://testsite.com", result.Metadata.Url);
+        }
+
+        [Fact]
         public async Task RunScrape_Wordpress_CallsUrl()
         {
             // Arrange

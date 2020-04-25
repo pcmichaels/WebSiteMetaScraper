@@ -27,7 +27,16 @@ namespace WebSiteMeta.Scraper.HttpClientWrapper
             try
             {
                 result = await _httpClient.GetAsync(url);
-                if (!result.IsSuccessStatusCode) return (false, string.Empty);
+                if (!result.IsSuccessStatusCode)
+                {
+                    if (result.StatusCode == System.Net.HttpStatusCode.Moved 
+                        || result.StatusCode == System.Net.HttpStatusCode.MovedPermanently)
+                    {
+                        return await GetHttpData(result.Headers.Location.AbsoluteUri.ToString());
+                    }
+                    
+                    return (false, string.Empty);
+                }
             }
             catch (HttpRequestException ex)
             {

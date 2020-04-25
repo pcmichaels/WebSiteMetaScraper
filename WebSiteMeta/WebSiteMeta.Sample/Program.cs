@@ -11,6 +11,17 @@ namespace WebSiteMeta.Sample
     {
         static async Task Main(string[] args)
         {
+            await RunTests(args);
+
+            Console.Write("Enter site address, or multiple with a comma between (e.g. www.sun.com,www.pmichaels.net): ");
+            string tests = Console.ReadLine();
+            await RunTests(tests.Split(","));
+
+            Console.ReadLine();
+        }
+
+        private static async Task RunTests(string[] args)
+        {
             foreach (var url in args)
             {
                 FindMetaDataResult result = await RunTest(url);
@@ -20,8 +31,6 @@ namespace WebSiteMeta.Sample
                 Console.WriteLine($"Title: {result.Metadata.Title}");
                 Console.WriteLine($"Description: {result.Metadata.Description}");
             }
-
-            Console.ReadLine();
         }
 
         private static async Task<FindMetaDataResult> RunTest(string url)

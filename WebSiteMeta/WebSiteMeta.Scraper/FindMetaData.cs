@@ -55,7 +55,7 @@ namespace WebSiteMeta.Scraper
             if (node != null)
             {
                 string link = node.Attributes.FirstOrDefault(a => a.Name == "href")?.Value;
-                if (!string.IsNullOrWhiteSpace(node.InnerText)) return node.InnerText;
+                if (!string.IsNullOrWhiteSpace(link)) return link;
             }
 
             return GetProperty(headNode, "meta", "property", "og:url");
@@ -94,7 +94,7 @@ namespace WebSiteMeta.Scraper
             }
             else
             {
-                var node = headNode.SelectSingleNode($"//{type}[@{attribute}='{name}']");
+                var node = headNode.SelectSingleNode($"//{type}[translate(@{attribute}, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='{name.ToLower()}']");
                 if (node != null)
                 {
                     return node.Attributes.FirstOrDefault(a => a.Name == "content").Value;
