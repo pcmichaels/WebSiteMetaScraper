@@ -23,3 +23,25 @@ jobs:
       run: dotnet build --configuration Release --no-restore ./WebSiteMeta
     - name: Test
       run: dotnet test --no-restore --verbosity normal ./WebSiteMeta
+      
+    - name: Publish NuGet
+      uses: rohith/publish-nuget@v2.3.0
+      with:
+        # Filepath of the project to be packaged, relative to root of repository
+        PROJECT_FILE_PATH: ./WebSiteMeta/WebSiteMeta.Scraper/
+        # NuGet package id to check against version changes, defaults to project name
+        #PACKAGE_NAME: # optional
+        # Filepath containing version info, relative to root of repository
+        #VERSION_FILE_PATH: # optional
+        # Regex pattern to extract version info in a capturing group
+        #VERSION_REGEX: # optional, default is <Version>(.*)<\/Version>
+        # Static version, useful for external providers like Nerdbank.GitVersioning
+        #VERSION_STATIC: # optional
+        # Flag to enable / disable git tagging
+        TAG_COMMIT: false # optional, default is true
+        # Format of the git tag, `[*]` gets replaced with version
+        #TAG_FORMAT: # optional, default is v*
+        # API key for the NuGet feed
+        NUGET_KEY: oy2a3ipcitjcbyyqvvnawdt7xoewgsqerk5t2j6kmxxxnq # optional
+        
+        
