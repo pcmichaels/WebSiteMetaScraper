@@ -22,9 +22,9 @@ jobs:
     - name: list some key files
       run: ls -lrt
     - name: try a different die
-      run: cd WebSiteMeta
+      run: ls -lrt WebSiteMeta
     - name: Install dependencies
-      run: dotnet restore ./websitemetascraper/websitemeta/websitemeta.sln
+      run: dotnet restore ./WebSiteMeta/
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Test
