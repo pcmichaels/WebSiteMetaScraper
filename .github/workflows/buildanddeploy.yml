@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
+    - name: where are we
+      run: pwd
     - name: Install dependencies
       run: dotnet restore ./websitemetascraper/websitemeta/websitemeta.sln
     - name: Build
