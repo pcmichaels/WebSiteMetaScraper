@@ -1,6 +1,7 @@
 ﻿using NSubstitute;
 using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using WebSiteMeta.Scraper;
 using WebSiteMeta.Scraper.HttpClientWrapper;
@@ -31,8 +32,8 @@ namespace WebSiteMeta.Tests
         [InlineData("http://test.com?test=123")]
         public async Task RunScrape_ValidUrl_Runs(string url)
         {
-            // Arrange            
-            SetupTest(@"SampleSites\simpletest.txt");
+            // Arrange                        
+            SetupTest(@"SampleSites/simpletest.txt");
 
             // Act
             var result = await _scraper.Run(url);
@@ -49,7 +50,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_InvalidUrl_Fails(string url)
         {
             // Arrange            
-            SetupTest(@"SampleSites\simpletest.txt");
+            SetupTest(@"SampleSites/simpletest.txt");
 
             // Act
             var result = await _scraper.Run(url);
@@ -62,7 +63,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_SimpleTest_ParseSite()
         {
             // Arrange
-            SetupTest(@"SampleSites\simpletest.txt");
+            SetupTest(@"SampleSites/simpletest.txt");
 
             // Act
             var result = await _scraper.Run("www.test.com");
@@ -77,7 +78,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_SimpleTestMixedCase_ParseSite()
         {
             // Arrange
-            SetupTest(@"SampleSites\simpletestMixedCase.txt");
+            SetupTest(@"SampleSites/simpletestMixedCase.txt");
 
             // Act
             var result = await _scraper.Run("www.test.com");
@@ -92,7 +93,7 @@ namespace WebSiteMeta.Tests
         public async Task RunScrape_Wordpress_CallsUrl()
         {
             // Arrange
-            SetupTest(@"SampleSites\pmichaels.net.txt");
+            SetupTest(@"SampleSites/pmichaels.net.txt");
 
             // Act
             var result = await _scraper.Run("www.test.com");
