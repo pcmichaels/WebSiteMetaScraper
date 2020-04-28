@@ -28,7 +28,7 @@ jobs:
       uses: rohith/publish-nuget@v2.3.0
       with:
         # Filepath of the project to be packaged, relative to root of repository
-        PROJECT_FILE_PATH: ./WebSiteMeta/WebSiteMeta.Scraper/
+        PROJECT_FILE_PATH: WebSiteMeta/WebSiteMeta.Scraper/
         # NuGet package id to check against version changes, defaults to project name
         #PACKAGE_NAME: # optional
         # Filepath containing version info, relative to root of repository
