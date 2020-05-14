@@ -6,11 +6,15 @@
 
   <ItemGroup>
     <None Remove="SampleSites\pmichaels.net.txt" />
+    <None Remove="SampleSites\qq.com.txt" />
     <None Remove="SampleSites\simpletest.txt" />
     <None Remove="SampleSites\simpletestMixedCase.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="SampleSites\qq.com.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="SampleSites\simpletestMixedCase.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

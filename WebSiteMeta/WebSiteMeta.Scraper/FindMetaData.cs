@@ -14,14 +14,20 @@ namespace WebSiteMeta.Scraper
 {
     public class FindMetaData : IFindMetaData
     {
-        private readonly IHttpClientWrapper _httpClientWrapper;
-       
+        private readonly IHttpClientWrapper _httpClientWrapper;        
+
         public FindMetaData(IHttpClientWrapper httpClientWrapper)
         {
             _httpClientWrapper = httpClientWrapper;
         }
 
-        public async Task<FindMetaDataResult> Run(string url)
+        /// <summary>
+        /// Scrape the site
+        /// </summary>
+        /// <param name="url"></param>
+        /// <param name="encoding">Override the encoding</param>
+        /// <returns>An object representing the metadata that was found for the site</returns>
+        public async Task<FindMetaDataResult> Run(string url, Encoding encoding = null)
         {
             string cleanUrl = CleanUrl(url);
             if (!ValidateUrl(cleanUrl))
@@ -30,7 +36,7 @@ namespace WebSiteMeta.Scraper
             }
 
             var data = new Metadata();
-            var httpDataResult = await _httpClientWrapper.GetHttpData(cleanUrl);
+            var httpDataResult = await _httpClientWrapper.GetHttpData(cleanUrl, encoding);
             if (!httpDataResult.isSuccess)
             {
                 return Fail($"Unable to make call to {cleanUrl}");
@@ -42,6 +48,18 @@ namespace WebSiteMeta.Scraper
             htmlDoc.LoadHtml(pageSource);
 
             var headNode = htmlDoc.DocumentNode.SelectSingleNode("//head");
+
+            string charset = GetCharset(headNode);
+
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            var charsetEncoding = Encoding.GetEncoding(charset);
+
+            if (encoding == null || charsetEncoding.CodePage != encoding.CodePage)
+            {
+                return await Run(url, charsetEncoding);
+            }
+
+            data.Charset = charset;
             data.Title = GetTitle(headNode);
             data.Description = GetDescription(headNode);
             data.Url = GetUrl(headNode);
@@ -72,6 +90,12 @@ namespace WebSiteMeta.Scraper
 
         }
 
+        private string GetCharset(HtmlNode htmlNode)
+        {
+            string charset = GetAttribute(htmlNode, "//meta/@charset");
+            return charset;
+        }
+
         private string GetTitle(HtmlNode headNode)
         {
             string title = GetProperty(headNode, "meta", "property", "og:site_name");
@@ -83,6 +107,12 @@ namespace WebSiteMeta.Scraper
             title = GetProperty(headNode, "meta", "property", "og:title");
             
             return title;
+        }
+
+        private string GetAttribute(HtmlNode headNode, string xPath)
+        {            
+            var node = headNode.SelectSingleNode($"{xPath}");
+            return node?.Attributes?.FirstOrDefault()?.Value;
         }
 
         private string GetProperty(HtmlNode headNode, string type, string attribute, string name)

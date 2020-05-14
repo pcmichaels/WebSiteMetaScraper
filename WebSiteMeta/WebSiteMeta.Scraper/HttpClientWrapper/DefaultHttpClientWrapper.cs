@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Net.Sockets;
 using System.Text;
@@ -20,7 +21,7 @@ namespace WebSiteMeta.Scraper.HttpClientWrapper
             _httpClient = httpClient;
         }
 
-        public async Task<(bool, string)> GetHttpData(string url)
+        public async Task<(bool, string)> GetHttpData(string url, Encoding encoding)
         {
             HttpResponseMessage result;
 
@@ -30,9 +31,10 @@ namespace WebSiteMeta.Scraper.HttpClientWrapper
                 if (!result.IsSuccessStatusCode)
                 {
                     if (result.StatusCode == System.Net.HttpStatusCode.Moved 
-                        || result.StatusCode == System.Net.HttpStatusCode.MovedPermanently)
+                        || result.StatusCode == System.Net.HttpStatusCode.MovedPermanently
+                        || result.StatusCode == System.Net.HttpStatusCode.Found)
                     {
-                        return await GetHttpData(result.Headers.Location.AbsoluteUri.ToString());
+                        return await GetHttpData(result.Headers.Location.AbsoluteUri.ToString(), encoding);
                     }
                     
                     return (false, string.Empty);
@@ -43,8 +45,13 @@ namespace WebSiteMeta.Scraper.HttpClientWrapper
                 return (false, ex.Message);
             }
 
-            string content = await result.Content.ReadAsStringAsync();
-            return (true, content);
+            var stream = await result.Content.ReadAsStreamAsync();
+
+            using (StreamReader reader = new StreamReader(stream, encoding))
+            {
+                string content = await reader.ReadToEndAsync();
+                return (true, content);
+            }
         }
     }
 }

@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Threading.Tasks;
 using WebSiteMeta.Scraper;
 using WebSiteMeta.Scraper.HttpClientWrapper;
@@ -18,7 +19,7 @@ namespace WebSiteMeta.Tests
             string text = File.ReadAllText(testFile);
 
             var httpClientWrapper = Substitute.For<IHttpClientWrapper>();
-            httpClientWrapper.GetHttpData(Arg.Any<string>())
+            httpClientWrapper.GetHttpData(Arg.Any<string>(), Arg.Any<Encoding>())
                 .Returns((true, text));
             _scraper = new FindMetaData(httpClientWrapper);
         }
@@ -104,5 +105,18 @@ namespace WebSiteMeta.Tests
             Assert.Equal("https://www.pmichaels.net/", result.Metadata.Url);
         }
 
+        [Fact]
+        public async Task RunScrape_Chinese_DetectCharset()
+        {
+            // Arrange
+            SetupTest(@"SampleSites/qq.com.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal("gb2312", result.Metadata.Charset);
+            Assert.Equal("腾讯首页", result.Metadata.Title);
+        }
     }
 }

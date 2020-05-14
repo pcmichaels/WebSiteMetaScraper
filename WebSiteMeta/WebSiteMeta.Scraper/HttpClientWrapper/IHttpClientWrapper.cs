@@ -1,9 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using System.Text;
+using System.Threading.Tasks;
 
 namespace WebSiteMeta.Scraper.HttpClientWrapper
 {
     public interface IHttpClientWrapper
     {
-        Task<(bool isSuccess, string data)> GetHttpData(string url);
+        Task<(bool isSuccess, string data)> GetHttpData(string url, Encoding encoding);
     }
 }

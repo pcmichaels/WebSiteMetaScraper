@@ -9,6 +9,6 @@ namespace WebSiteMeta.Scraper
     {
         string CleanUrl(string url);
         bool ValidateUrl(string url);
-        Task<FindMetaDataResult> Run(string url);
+        Task<FindMetaDataResult> Run(string url, Encoding encoding = null);
     }
 }
