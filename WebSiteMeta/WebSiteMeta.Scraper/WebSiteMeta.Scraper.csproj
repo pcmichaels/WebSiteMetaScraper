@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Paul Michaels</Company>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Description>Call a URL and have some basic metadata returned</Description>
     <Authors>Paul Michaels</Authors>
     <Copyright>Paul Michaels</Copyright>
