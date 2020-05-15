@@ -12,11 +12,22 @@ namespace WebSiteMeta.Sample
     {
         static async Task Main(string[] args)
         {
-            //string[] testSites = GetTestSites();
-            //await RunTests(testSites);
+            switch (args[0])
+            {
+                case "-t":
+                    string[] testSites = GetTestSites();
+                    await RunTests(testSites);
+                    break;
 
-            //string[] testTop50Sites = GetTop50Sites();
-            //await RunTests(testTop50Sites);
+                case "-50":
+                    string[] testTop50Sites = GetTop50Sites();
+                    await RunTests(testTop50Sites);
+                    break;
+
+                case "-s":
+                    await RunTests(new[] { args[1] });
+                    break;
+            }
 
             Console.Write("Enter site address, or multiple with a comma between (e.g. www.sun.com,www.pmichaels.net): ");
             string tests = Console.ReadLine();
@@ -43,8 +54,9 @@ namespace WebSiteMeta.Sample
                 "https://www.nytimes.com/",
                 "theguardian.com",
                 "alexa.com",
-                "baidu.com"
-
+                "baidu.com",
+                "qq.com",
+                "sohu.com"
             };
         }
 

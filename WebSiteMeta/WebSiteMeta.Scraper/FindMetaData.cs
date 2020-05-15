@@ -29,6 +29,8 @@ namespace WebSiteMeta.Scraper
         /// <returns>An object representing the metadata that was found for the site</returns>
         public async Task<FindMetaDataResult> Run(string url, Encoding encoding = null)
         {
+            if (encoding == null) encoding = Encoding.UTF8;
+
             string cleanUrl = CleanUrl(url);
             if (!ValidateUrl(cleanUrl))
             {
@@ -48,15 +50,22 @@ namespace WebSiteMeta.Scraper
             htmlDoc.LoadHtml(pageSource);
 
             var headNode = htmlDoc.DocumentNode.SelectSingleNode("//head");
+            if (headNode == null) return Fail("Unable to find header node");
 
             string charset = GetCharset(headNode);
-
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            var charsetEncoding = Encoding.GetEncoding(charset);
-
-            if (encoding == null || charsetEncoding.CodePage != encoding.CodePage)
+            if (charset != null)
             {
-                return await Run(url, charsetEncoding);
+                Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+                var charsetEncoding = Encoding.GetEncoding(charset);
+
+                if (encoding == null || charsetEncoding.CodePage != encoding.CodePage)
+                {
+                    return await Run(url, charsetEncoding);
+                }
+            }
+            else
+            {
+                charset = encoding.WebName;
             }
 
             data.Charset = charset;

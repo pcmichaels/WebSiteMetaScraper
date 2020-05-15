@@ -1,7 +1,8 @@
 {
   "profiles": {
     "WebSiteMeta.Sample": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "-t"
     }
   }
 }
