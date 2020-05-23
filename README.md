@@ -25,6 +25,26 @@ Run sample for a specific site:
 WebSiteMeta.Sample.exe -s https://pmichaels.net
 ```
 
+### For Example:
+
+```
+WebSiteMeta.Sample.exe -s www.sun.com
+```
+
+The result should be:
+
+```
+--==Trying www.sun.com==--
+Url is valid
+Charset: utf-8
+Url: https://www.oracle.com/sun/
+Title: Oracle and Sun Microsystems | Strategic Acquisitions | Oracle
+Description: Since Oracle acquired Sun in 2010, Oracle's hardware and software engineers have worked side-by-side to build fully integrated systems and optimized solutions.
+```
+
+Note that the URL has changed due to the redirect.
+
+
 ## Inside Your Web Application
 
 ### Startup.cs
@@ -39,7 +59,7 @@ services.AddScoped<IFindMetaData, FindMetaData>(a =>
 });
 ```
 
-### In your controller of service
+### In your controller or service
 
 ```
 public FunkyService(IFindMetaData findMetaData)

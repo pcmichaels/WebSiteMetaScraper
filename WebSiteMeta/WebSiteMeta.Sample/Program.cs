@@ -27,11 +27,13 @@ namespace WebSiteMeta.Sample
                 case "-s":
                     await RunTests(new[] { args[1] });
                     break;
-            }
 
-            Console.Write("Enter site address, or multiple with a comma between (e.g. www.sun.com,www.pmichaels.net): ");
-            string tests = Console.ReadLine();
-            await RunTests(tests.Split(","));
+                case "-p":
+                    Console.Write("Enter site address, or multiple with a comma between (e.g. www.sun.com,www.pmichaels.net): ");
+                    string tests = Console.ReadLine();
+                    await RunTests(tests.Split(","));
+                    break;
+            }
 
             Console.ReadLine();
         }
