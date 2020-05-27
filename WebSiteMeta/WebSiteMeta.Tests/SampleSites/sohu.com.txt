@@ -1,0 +1,2888 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>搜狐</title>
+<meta name="Keywords" content="搜狐,门户网站,新媒体,网络媒体,新闻,财经,体育,娱乐,时尚,汽车,房产,科技,图片,论坛,微博,博客,视频,电影,电视剧"/>
+<meta name="Description" content="搜狐网为用户提供24小时不间断的最新资讯，及搜索、邮件等网络服务。内容包括全球热点事件、突发新闻、时事评论、热播影视剧、体育赛事、行业动态、生活服务信息，以及论坛、博客、微博、我的搜狐等互动空间。" />
+<meta name="shenma-site-verification" content="1237e4d02a3d8d73e96cbd97b699e9c3_1504254750">
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+<meta name="data-spm" content="smpc">
+<link rel="icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" sizes="57x57" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-144.png" />
+<link href="//statics.itc.cn/web/v3/static/css/main-9d68c9f62b.css" rel="stylesheet"/>
+<script>
+    //  加载监控代码
+</script>
+<!--[if lt IE 9]>
+<script src="//statics.itc.cn/web/v3/static/js/es5-shim-08e41cfc3e.min.js"></script>
+<script src="//statics.itc.cn/web/v3/static/js/es5-sham-1d5fa1124b.min.js"></script>
+<script src="//statics.itc.cn/web/v3/static/js/html5shiv-21fc8c2ba6.js"></script>
+<link href="//statics.itc.cn/web/v3/static/css/ie8hack-9dce3c3b96.css" rel="stylesheet" />
+<![endif]-->
+<script type="text/javascript">
+//解決IE8,IE9不支持console的问题
+(function() {
+    var method;
+    var noop = function() {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+</script>
+
+<script>
+    // 是否默认为经典狐首
+    (function () {
+        var storage = window.localStorage || { getItem: function () {}, setItem: function () {} };
+        var isClassicDefault = storage.getItem("isClassicDefault") || "false";
+        if (isClassicDefault == "true") {
+            window.location.href = "http://www.sohu.com/classic?spm=smpc.home.classic-user.0.0";
+        }
+    })();
+</script>
+
+<script type="text/javascript">
+    (function () {
+        var html = document.getElementsByTagName("html")[0];
+        var width = Math.min(document.documentElement.clientWidth, 790);
+        width = width < 320 ? 320 : width;
+        if (document.documentElement.clientWidth <= 1024) {
+            html.style.fontSize = width / 790 * 79 + 'px';
+        }
+        if (window.addEventListener) {
+            window.addEventListener('resize', resizeHandler);
+        }
+        else if (window.attachEvent) {
+            window.attachEvent('onresize', resizeHandler);
+        }
+        function resizeHandler() {
+            if (document.documentElement.clientWidth <= 1024) {
+                var width = Math.min(document.documentElement.clientWidth, 790);
+                width = width < 320 ? 320 : width;
+                html.style.fontSize = width / 790 * 79 + 'px';
+            } else {
+                html.style.fontSize = "16px";
+            }
+        };
+    })();
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" id="stylemend" href="" />
+
+</head>
+
+<body class="sohu-index-v3" data-spm="home">
+	<header class="sohu-head">
+		<div class="area sohu-head-box">
+			<a class="head-middle" href="https://www.sohu.com/subject/320367" target="_blank">
+				<span class="head-num">2020</span>
+				<span class="head-middle-text"> 全国两会</span></a>
+			<div class="right head-right">
+              
+            </div>
+		</div>
+	</header><div class="sohu-ph" id="sohuTopc" style="display:none;">
+    <div class="ph-link">
+        <a href="http://news.sohu.com/s2018/guoqing69/index.shtml" target="_blank"></a>
+    </div>
+    <div id="ph-close" class="ph-close"><a href="javascript:void(0)"></a></div>
+</div>    <!--  皮肤 wrapper box -->
+    <div class="theme-skin-wrap" data-spm="top-festival">
+        <div class="mask"></div>
+        <div class="close-wrap">
+            <div class="icon-wrap">
+                <i class="icon-close"></i>
+            </div>
+            <div>关闭皮肤</div>
+        </div>
+    </div>
+    <div class="top-box">
+        <div class="top-box-wrapper">
+<div class="logo-search area" data-spm="top-logo">
+    <div class="logo left"><a href="/" target="_blank">搜狐首页</a></div>
+    <div class="search-mod left">
+        <div class="search left" id="search">
+        </div>
+    </div>
+    <div class="links-list-wrap">
+        <ul class="links">
+            <a href="http://mp.sohu.com" target="_blank">
+                <li class="link shh">
+                    <div class="icon"></div>
+                    <div class="title">搜狐号</div>
+
+                </li>
+            </a>
+            <a href="https://www.sogou.com" target="_blank">
+                <li class="link sougou">
+                    <div class="icon"></div>
+                    <div class="title">搜狗搜索</div>
+                </li>
+            </a>
+            <a href="https://mail.sohu.com" target="_blank">
+                <li class="link sohu_email">
+                    <div class="icon"></div>
+                    <div class="title">搜狐邮箱</div>
+                </li>
+            </a>
+        </ul>
+    </div>
+</div><nav class="nav area" data-spm="top-nav">
+    <div class="box boxA first">
+        <ul>
+            <li class="first"><a data-clev="10220218" target="_blank" href="//news.sohu.com/"><strong>新闻</strong></a></li>
+            <li><a data-clev="10220219" target="_blank" href="//mil.sohu.com/">军事</a></li>
+            <li><a data-clev="10220220" target="_blank" href="//www.sohu.com/subject">专题</a></li>
+        </ul>
+         <ul>
+
+            <li><a data-clev="10220221" target="_blank" href="http://business.sohu.com"><strong>财经</strong></a></li>
+            <li><a data-clev="10220222" target="_blank" href="//business.sohu.com/994">宏观</a></li>
+            <li><a data-clev="10220223" target="_blank" href="http://business.sohu.com/998">理财</a></li>
+        </ul>
+
+
+    </div>
+    <div class="box boxB">
+        <ul>
+            <li><a data-clev="10220224" target="_blank" href="//sports.sohu.com/"><strong>体育</strong></a></li>
+            <li><a data-clev="10220225" target="_blank" href="//sports.sohu.com/s/nba">NBA</a></li>
+            <li><a data-clev="10220226" target="_blank" href="//sports.sohu.com/s/cba">CBA</a></li>
+        </ul>
+         <ul>
+
+            <li><a data-clev="10220227" target="_blank" href="http://www.focus.cn/"><strong>房产</strong></a></li>
+            <li><a data-clev="10220228" target="_blank" href="https://www.focus.cn/loupan">新房</a></li>
+            <li><a data-clev="10220229" target="_blank" href="http://home.focus.cn/">家居</a></li>
+        </ul>
+
+
+    </div>
+    <div class="box boxC">
+        <ul>
+            <li><a data-clev="10220230" target="_blank" href="//yule.sohu.com/"><strong>娱乐</strong></a></li>
+            <li class="first"><a data-clev="10220231" target="_blank" href="//tv.sohu.com/">视频</a></li>
+            <li><a data-clev="10220232" target="_blank" href="//tv.sohu.com/drama/">电视剧</a></li>
+
+        </ul>
+        <ul>
+            <li><a data-clev="10220233" target="_blank" href="http://auto.sohu.com"><strong>汽车</strong></a></li>
+            <li><a data-clev="10220234" target="_blank" href="http://db.auto.sohu.com/home/">买车</a></li>
+            <li><a data-clev="10220235" target="_blank" href="http://auto.sohu.com/newenergy/index.shtml">新能源</a></li>
+        </ul>
+
+
+
+    </div>
+    <div class="box boxD">
+        <ul>
+            <li><a data-clev="10220236" target="_blank" href="http://fashion.sohu.com"><strong>时尚</strong></a></li>
+            <li><a data-clev="10220237" target="_blank" href="//travel.sohu.com">旅游</a></li>
+            <li><a data-clev="10220238" target="_blank" href="http://baobao.sohu.com">母婴</a></li>
+        </ul>
+        <ul>
+            <li><a data-clev="10220239" target="_blank" href="//it.sohu.com"><strong>科技</strong></a></li>
+            <li><a data-clev="10220240" target="_blank" href="http://learning.sohu.com">教育</a></li>
+            <li><a data-clev="10220241" target="_blank" href="http://health.sohu.com">健康</a></li>
+        </ul>
+    </div>
+    <div class="box boxE">
+        <ul>
+            <li><a data-clev="10220242" target="_blank" href="//chihe.sohu.com"><strong>美食</strong></a></li>
+            <li><a data-clev="10220243" target="_blank" href="http://cul.sohu.com">文化</a></li>
+            <li><a data-clev="10220244" target="_blank" href="http://history.sohu.com">历史</a></li>
+        </ul>
+        <ul>
+            <li><a data-clev="10220245" target="_blank" href="//astro.sohu.com/"><strong>星座</strong></a></li>
+            <li><a data-clev="10220246" target="_blank" href="//acg.sohu.com/">动漫</a></li>
+            <li><a target="_blank" href="//gmxc.sohu.com/2020?_trans_=000019_pcsydhl">校草</a></li>
+            <!-- <li><a target="_blank" href="//game.sohu.com">游戏</a></li> -->
+        </ul>
+    </div>
+    <div class="box boxF">
+        <ul>
+            <li><a target="_blank" href="//mail.sohu.com"><strong>邮箱</strong></a></li>
+            <li><a target="_blank" href="//ie.sogou.com">浏览器</a></li>
+            <li><a target="_blank" href="http://blog.sohu.com">博客</a></li>
+        </ul>
+        <ul>
+            <li><a target="_blank" href="//map.sogou.com"><strong>地图</strong></a></li>
+            <li><a target="_blank" href="//pinyin.sogou.com">输入法</a></li>
+            <li><a target="_blank" href="http://caipiao.sohu.com">彩票</a></li>
+        </ul>
+    </div>
+    <div class="box boxG end">
+        <ul>
+            <li><a target="_blank" href="//qf.56.com/"><strong>千帆</strong></a></li>
+            <li ><a target="_blank" href="http://popup.sohu.com/web/">微门户</a></li>
+            <li class="wd"><a target="_blank" href="//gongyi.sohu.com/ ">公益</a></li>
+
+        </ul>
+          <ul>
+            <li><a target="_blank" href="//www.changyou.com/index.shtml"><strong>畅游</strong></a></li>
+            <li ><a target="_blank" href="//www.17173.com">17173</a></li>
+            <li class="wd"><a target="_blank" href="http://gov.sohu.com/ ">政务</a></li>
+        </ul>
+    </div>
+</nav>
+        </div>
+    </div>
+    <div class="wrapper-box">
+        <!--头部通栏广告与举报区-->
+        <div class="god_header clearfix area" >
+        <div class="god-head left" data-role="god_column">
+        </div>
+<div class=" jubao right">
+    <div class="jubao-box"  id="report">
+        <div class="jubao-list">
+            <div class="jubao-con jubao01"><a target="_blank" href="http://news.sohu.com/s2013/fanfujubao/">网络监督专区欢迎监督如实举报</a></div>
+            <div class="jubao-con jubao09"><a target="_blank" href="https://www.xuexi.cn/">学习强国</a></div>
+            <div class="jubao-con jubao11"><a target="_blank" href="//mp.sohu.com/profile?xpt=NDdhZWJhZWMtYjJlYS00YzlkLWI2ZWMtNGY2NjE3OTE1MWEx">网警小课堂</a></div>
+            <div class="jubao-con jubao06"><a target="_blank" href="http://ggkf40.cctv.com">伟大的变革</a></div>
+            <div class="jubao-con jubao04"><a target="_blank" href="http://i2.itc.cn/20141216/26b_4594d163_880a_4ddc_d8a5_23b7ed2a23b3_1.jpg">社会主义核心价值观</a></div>
+            <div class="jubao-con jubao05"><a target="_blank" href="http://www.12377.cn">网上有害信息举报专区</a></div>
+        </div>
+    </div>
+</div>
+
+        </div>
+<div class="area contentA public clearfix">
+    <div class="left main">
+        <div class="main-box clearfix">
+            <div class="main-left left">
+                    <!--焦点图-->
+                    <!--轮播图-->
+<div class="focus swiper-focus" data-role="index-focus" data-spm="fspic">
+            <div class="scroll" id="swiper">
+            <div class="con" data-role="item-wrapper">
+                        <div class="pic img-do">
+                            <a target="_blank" data-param="?_f=index_focus_0" href="https://www.sohu.com/a/397949972_114988" title="2020珠峰高程测量登山队登顶珠峰！">
+                                <img alt="2020珠峰高程测量登山队登顶珠峰！" src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_899,h_599/os/news/acdec64efdf469840c111fddc9ac9bc3.jpg">
+                                <span class="shadow linear-box"><em class="linear-bg"></em><span>2020珠峰高程测量登山队登顶珠峰！</span></span>
+                            </a>
+                        </div>
+                        <div class="pic img-do">
+                            <a target="_blank" data-param="?_f=index_focus_1" href="https://www.sohu.com/a/397912949_260616" title="国外累计确诊559万例，美国病亡破10万">
+                                <img alt="国外累计确诊559万例，美国病亡破10万" src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_22,y_1,w_465,h_310/os/news/5727fcfd311cd792e7bcfacab1fe7b28.jpg">
+                                <span class="shadow linear-box"><em class="linear-bg"></em><span>国外累计确诊559万例，美国病亡破10万</span></span>
+                            </a>
+                        </div>
+                        <div class="pic img-do">
+                            <a target="_blank" data-param="?_f=index_focus_2" href="https://www.sohu.com/a/397914833_115362" title="美股大涨500点！牛市要来了？">
+                                <img alt="美股大涨500点！牛市要来了？" src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_549,h_366/os/news/fa6aec1bf737753ed0028a039853c1ca.jpg">
+                                <span class="shadow linear-box"><em class="linear-bg"></em><span>美股大涨500点！牛市要来了？</span></span>
+                            </a>
+                        </div>
+            </div>
+            <div class="autos">
+                        <span data-id="0" class="cur"><a></a></span>
+                        <span data-id="1" class=""><a></a></span>
+                        <span data-id="2" class=""><a></a></span>
+            </div>
+            <div class="btns"><a href="javascript:void(0)" class="btnl"></a><a href="javascript:void(0)" class="btnr"></a>
+            </div>
+        </div>
+</div>
+<!--图片集合-->
+<div class="pic-group clearfix" data-spm="pic-group">
+    <ul>
+                    <li class=""><a data-param="?_f=index_focus_3" href="https://www.sohu.com/a/397935958_115479" target="_blank" title="俄两架苏-35左右包夹拦截美巡逻机"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_0,w_500,h_333/os/news/d2349c8a20182ed3e7f00979056d6e6c.jpg" alt="俄两架苏-35左右包夹拦截美巡逻机"><span class="txt">俄两架苏-35左右包夹拦截美巡逻机</span></a></li>
+                    <li class="end"><a data-param="?_f=index_focus_4" href="https://www.sohu.com/picture/397931709" target="_blank" title="黄河边发现大型古墓群 文物2000余件"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_2,w_899,h_599/os/news/824b2bd700b0db190236af35de6206e3.jpg" alt="黄河边发现大型古墓群 文物2000余件"><span class="txt">黄河边发现大型古墓群 文物2000余件</span></a></li>
+                    <li class=""><a data-param="?_f=index_focus_5" href="https://www.sohu.com/a/397984665_260616" target="_blank" title="27年来最严重蝗灾侵袭印度"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_8,y_8,w_481,h_321/os/news/bdf9ec8b99ce42c01426c72171ba2025.jpg" alt="27年来最严重蝗灾侵袭印度"><span class="txt">27年来最严重蝗灾侵袭印度</span></a></li>
+                    <li class="end"><a data-param="?_f=index_focus_6" href="https://www.sohu.com/a/397912640_123753" target="_blank" title="世卫官员:美洲国家放松防疫限制尚早"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_17,w_700,h_466/os/news/607f9dbe9a2ee32c13222229b10bdab1.jpg" alt="世卫官员:美洲国家放松防疫限制尚早"><span class="txt">世卫官员:美洲国家放松防疫限制尚早</span></a></li>
+
+    </ul>
+</div>                    <!--左侧搜狐视频新闻-->
+<div class="video-mod" data-spm="video-group">
+    <div class="titleL"><span class="tt">视频</span></div>
+    <div class="video-focus-pic img-do"><a title="菲律宾总统：疫苗出来之前学校不能复课" data-param="?_f=index_video_0" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE5NjM0MzEyNi5zaHRtbA==.html" target="_blank"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_160/c_cut,x_0,y_0,w_500,h_250/os/news/a98b1c2ac4af49d2e54384dc235d87dd.jpg" alt="菲律宾总统：疫苗出来之前学校不能复课"><span class="linear-box video-txt"><em class="linear-bg"></em>
+    <em class="txt">菲律宾总统：疫苗出来之前学校不能复课</em></span><i class="icon icon-video icon-video-big"></i></a></div>
+    <div class="list-link clear">
+        <ul>
+            <li><a data-param="?_f=index_video_1_0" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE5NjM0NTA5My5zaHRtbA==.html" target="_blank">关　注</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_video__1_1" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE5NjM0NTA5My5zaHRtbA==.html" target="_blank">美富豪死亡 全球130人为财产争“认爹”</a>
+           </li>
+
+            <li><a data-param="?_f=index_video_2_0" href="https://tv.sohu.com/v/dXMvMjkzMTM3NjQ0LzE5NjM0MjI5MS5zaHRtbA==.html" target="_blank">热　点</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_video__2_1" href="https://tv.sohu.com/v/dXMvMjkzMTM3NjQ0LzE5NjM0MjI5MS5zaHRtbA==.html" target="_blank">日本3名男子躲无人岛避疫 过原始人生活</a>
+           </li>
+
+            <li><a data-param="?_f=index_video_3_0" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE5NjIzMDAzMy5zaHRtbA==.html" target="_blank">聚　焦</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_video__3_1" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE5NjIzMDAzMy5zaHRtbA==.html" target="_blank">两名消防员手牵手面壁 背后原因超可爱</a>
+           </li>
+
+        </ul>
+    </div>
+        <div class="pic-group clearfix">
+        <ul>
+            <li class=""><a title="引起注意" data-param="?_f=index_tv_0" href="https://tv.sohu.com/v/MjAyMDA1MjEvbjYwMDg1NDM1MS5zaHRtbA==.html?txid=1001033263" target="_blank"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_36,y_4,w_288,h_192/c_cut,x_127,y_58,w_361,h_240/os/news/3b6e69735bdfdb71792b1da684d7ee83.jpg" alt="引起注意"><span class="linear-box"><em class="linear-bg"></em>
+            <em class="linear-txt">引起注意</em></span><i class="icon play-icon"></i></a></li>
+            <li class="end"><a title="花繁叶茂" data-param="?_f=index_tv_1" href="http://tv.sohu.com/v/MjAyMDA1MjYvbjYwMDg1NjI2Ni5zaHRtbA==.html?txid=1001033262" target="_blank"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_76,y_63,w_689,h_459/os/news/d7f5716b9c50bea18a8cc4503a81ad59.jpg" alt="花繁叶茂"><span class="linear-box"><em class="linear-bg"></em>
+            <em class="linear-txt">花繁叶茂</em></span><i class="icon play-icon"></i></a></li>
+        </ul>
+    </div>
+    <div class="list-link clear">
+        <ul>
+            <li>
+            <a data-param="?_f=index_tv_2_0" href="https://tv.sohu.com/drama/?txid=1001033264" target="_blank">热　播</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_tv__2_1" href="https://tv.sohu.com/v/MjAxNDA3MTQvbjQwMjIxNDc1OS5zaHRtbA==.html?txid=1001033265" target="_blank">血族</a>
+            <a data-param="?_f=index_tv__2_2" href="https://tv.sohu.com/v/MjAxNDEyMDQvbjQwNjYzNjEyNS5zaHRtbA==.html?txid=1001033266" target="_blank">神雕侠侣</a>
+            <a data-param="?_f=index_tv__2_3" href="http://tv.sohu.com/v/MjAyMDA1MjYvbjYwMDg1NjI2NC5zaHRtbA==.html?txid=1001033267" target="_blank">遍地书香</a>
+            <a data-param="?_f=index_tv__2_4" href="https://tv.sohu.com/v/MjAxNTA0MjgvbjQxMTk4MjU1NC5zaHRtbA==.html" target="_blank">特警力量</a>
+            </li>
+            <li>
+            <a data-param="?_f=index_tv_3_0" href="http://tv.sohu.com/self/?txid=1001033268" target="_blank">自　制</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_tv__3_1" href="https://tv.sohu.com/v/MjAyMDA0MDIvbjYwMDgzNjU4OC5zaHRtbA==.html?txid=1001033265" target="_blank">班主任</a>
+            <a data-param="?_f=index_tv__3_2" href="https://tv.sohu.com/v/MjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA==.html?txid=1001033266" target="_blank">法医秦明</a>
+            <a data-param="?_f=index_tv__3_3" href="https://tv.sohu.com/v/MjAxNjA4MTAvbjQ2MzYwMzE4Mi5zaHRtbA==.html?txid=1001033267" target="_blank">亲爱的公主病</a>
+            <a data-param="?_f=index_tv__3_4" href="https://tv.sohu.com/v/MjAxNzEyMDYvbjYwMDI5MDQ1NC5zaHRtbA==.html" target="_blank">端脑</a>
+            </li>
+            <li>
+            <a data-param="?_f=index_tv_4_0" href="http://tv.sohu.com/movie/?txid=1001033272" target="_blank">电　影</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_tv__4_1" href="https://film.sohu.com/album/332.html?channeled=1200100000?txid=1001033273" target="_blank">野草莓</a>
+            <a data-param="?_f=index_tv__4_2" href="https://film.sohu.com/album/5102672.html?channeled=1200100000?txid=1001033274" target="_blank">游戏时间</a>
+            <a data-param="?_f=index_tv__4_3" href="https://film.sohu.com/album/9561929.html?channeled=1200100000?txid=1001033275" target="_blank">过年</a>
+            <a data-param="?_f=index_tv__4_4" href="https://film.sohu.com/album/6186238.html?channeled=1200100000?channeled=1200100000" target="_blank">楢山节考</a>
+            </li>
+            <li>
+            <a data-param="?_f=index_tv_5_0" href="http://tv.sohu.com/comic/?txid=1001033276" target="_blank">动　漫</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_tv__5_1" href="https://tv.sohu.com/v/MjAxNjA3MjAvbjQ2MDAzMzIxMS5zaHRtbA==.html?txid=1001033273" target="_blank">禽兽超人</a>
+            <a data-param="?_f=index_tv__5_2" href="https://tv.sohu.com/v/MjAxNTA2MjYvbjQxNTcwNDc0Mi5zaHRtbA==.html?txid=1001033274" target="_blank">狐妖小红娘</a>
+            <a data-param="?_f=index_tv__5_3" href="https://tv.sohu.com/v/MjAxOTA5MDQvbjYwMDc1NzY4NS5zaHRtbA==.html?txid=1001033275" target="_blank">罗小黑</a>
+            <a data-param="?_f=index_tv__5_4" href="https://tv.sohu.com/v/MjAxODAxMDYvbjYwMDMzNTA4OS5zaHRtbA==.html" target="_blank">妖神记</a>
+            </li>
+            <li>
+            <a data-param="?_f=index_tv_6_0" href="http://tv.sohu.com/show/?txid=1001033280" target="_blank">综　艺</a>
+            <em class="line">|</em>
+            <a data-param="?_f=index_tv__6_1" href="http://tv.sohu.com/v/MjAyMDA1MjYvbjYwMDg1NjI2Mi5zaHRtbA==.html?txid=1001033277" target="_blank">爱情保卫战</a>
+            <a data-param="?_f=index_tv__6_2" href="http://tv.sohu.com/v/MjAyMDA1MjYvbjYwMDg1NjI1OC5zaHRtbA==.html?txid=1001033278" target="_blank">金牌调解</a>
+            <a data-param="?_f=index_tv__6_3" href="http://tv.sohu.com/v/MjAyMDA1MjYvbjYwMDg1NTcyNy5zaHRtbA==.html?txid=1001033279" target="_blank">一周剧能说</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+                    
+              
+            </div>
+            <div class="main-right right">
+<div class="focus-news">
+    <div class="focus-news-box">
+        <div id="entrance">
+            <a class="intoclassic" href="http://www.sohu.com/classic" target="_blank">
+                <img src="http://statics.itc.cn/sohu-homepage/oldentrancetwo.png" class="entrance-button">
+            </a>
+        </div>
+          <!--党政专区头部10条新闻-->
+        <div class="news" data-spm="top-news1">
+            
+
+                  <p><a href="https://www.sohu.com/a/397967374_585752?code=52ad8728e456fdb217db98bd0e914954" data-param="&_f=index_cpc_0" target="_blank" title="在每年必去的这个代表团，习近平强调做好四篇文章"><b>在每年必去的这个代表团，习近平强调做好四篇文章</b></a></p>
+
+                <p><a href="https://www.sohu.com/a/397774619_362042?code=f86bbc7c91ce855bab4273bdae3cead2" data-param="&_f=index_cpc_1_0" target="_blank" title="“小巷总理”有多重要？总书记这样说"><b>“小巷总理”有多重要？总书记这样说</b></a>
+                    <em class="line-mg">|</em>
+                <a href="https://www.sohu.com/a/397976517_162758?code=8955a48dfd442b12d03bf408a6c582f9" data-param="&_f=index_cpc_0_1" target="_blank" title="一分部署 九分落实"><b>一分部署 九分落实</b></a>
+                </p>
+
+                <p><a href="https://www.sohu.com/subject/320428?code=9ac3c2d783ff4956cc2f9774980cbb52" data-param="&_f=index_cpc_2_0" target="_blank" title="2020全国两会专题">2020全国两会专题</a>
+                    <em class="line-mg">|</em>
+                <a href="https://www.sohu.com/subject/320390?code=9ac3c2d783ff4956cc2f9774980cbb52" data-param="&_f=index_cpc_0_1" target="_blank" title="代表委员履职故事">代表委员履职故事</a>
+                <em class="line-mg">|</em>
+                <a href="https://www.sohu.com/a/397712152_119038?code=df88e03e6e5b9959e66c7de8fc4584fc" data-param="&_f=index_cpc_1_2" target="_blank" title="重磅干货，收！">重磅干货，收！</a>
+                </p>
+
+                  <p><a href="http://www.sohu.com/a/397936858_162758?code=746cbda6f51f4864f55dc90119466a84" data-param="&_f=index_cpc_3" target="_blank" title="酒店被偷拍、行踪被泄露……公民隐私靠TA保护">酒店被偷拍、行踪被泄露……公民隐私靠TA保护</a></p>
+
+                  <p><a href="https://www.sohu.com/a/397864364_115402?code=8a5fe5c937b93135386b3ad0142a9e66" data-param="&_f=index_cpc_4" target="_blank" title="香港律政司司长郑若骅：从宪制秩序角度正确理解国家安全法律">香港律政司司长郑若骅：从宪制秩序角度正确理解国家安全法律</a></p>
+
+        </div>
+            <div data-role="update-pa-0" class="list-mod list-mod-0">
+                <!--  -->
+                <div class="list16" data-spm="top-news2">
+                    <ul>
+                        <li><a data-param="?_f=index_news_0" href="https://www.sohu.com/subject/320367" target="_blank" title="低龄犯罪频发，该不该降低刑责年龄？代表们这样说">
+                        
+                        <span class="first-title">低龄犯罪频发，该不该降低刑责年龄？代表们这样说</span>
+                        </a></li>
+                        <li><a data-param="?_f=index_news_1" href="https://www.sohu.com/a/397968941_120099891" target="_blank" title="人大代表：建议孩子上课期间关闭网络游戏">
+                        <i class="icon icon-video"></i>
+                        人大代表：建议孩子上课期间关闭网络游戏
+                        </a></li>
+                        <li><a data-param="?_f=index_news_2" href="https://www.sohu.com/a/397951024_123753" target="_blank" title="猪肉价格连续13周下降，今年会重回“10元时代”吗？">
+                        <i class="icon icon-video"></i>
+                        猪肉价格连续13周下降，今年会重回“10元时代”吗？
+                        </a></li>
+                        <li><a data-param="?_f=index_news_3" href="https://www.sohu.com/a/397987575_260616" target="_blank" title="贬损中国抗疫却捧台湾？中领馆：借夸孩子来贬父母，不懂规矩">
+                        
+                        贬损中国抗疫却捧台湾？中领馆：借夸孩子来贬父母，不懂规矩
+                        </a></li>
+                        <li><a data-param="?_f=index_news_4" href="https://www.sohu.com/a/397997558_260616" target="_blank" title="赵金云委员：家长整天刷手机养不出爱读书的娃">
+                        
+                        赵金云委员：家长整天刷手机养不出爱读书的娃
+                        </a></li>
+                        <li><a data-param="?_f=index_news_5" href="https://www.sohu.com/a/397915955_115479" target="_blank" title="“港区国安法”或致未来“以言入罪”？梁振英驳斥">
+                        <i class="icon icon-video"></i>
+                        “港区国安法”或致未来“以言入罪”？梁振英驳斥
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="list16" data-spm="top-news3">
+                    <ul>
+                        <li><a data-param="?_f=index_news_6" href="https://www.sohu.com/a/397958949_162522" target="_blank" title="李嘉诚表态：“港区国安法”将发挥正面作用">
+                        
+                        <span class="first-title">李嘉诚表态：“港区国安法”将发挥正面作用</span>
+                        </a></li>
+                        <li><a data-param="?_f=index_news_7" href="https://www.sohu.com/a/397949546_162522" target="_blank" title="肯尼亚要求中国公司停止运营该国铁路？官方回应">
+                        
+                        肯尼亚要求中国公司停止运营该国铁路？官方回应
+                        </a></li>
+                        <li><a data-param="?_f=index_news_8" href="https://www.sohu.com/a/397909726_120640988" target="_blank" title="关注！加拿大今日将宣布对孟晚舟裁决结果">
+                        <i class="icon icon-video"></i>
+                        关注！加拿大今日将宣布对孟晚舟裁决结果
+                        </a></li>
+                        <li><a data-param="?_f=index_news_9" href="https://www.sohu.com/a/397959264_162522" target="_blank" title="特朗普发“黑人抬棺”视频讽刺拜登：棺材上有拜登竞选标志">
+                        
+                        特朗普发“黑人抬棺”视频讽刺拜登：棺材上有拜登竞选标志
+                        </a></li>
+                        <li><a data-param="?_f=index_news_10" href="https://www.sohu.com/a/397862970_115362" target="_blank" title="中方计划派临时航班赴印度，接回部分在印中国公民">
+                        <i class="icon icon-video"></i>
+                        中方计划派临时航班赴印度，接回部分在印中国公民
+                        </a></li>
+                        <li><a data-param="?_f=index_news_11" href="https://www.sohu.com/a/397966444_313745" target="_blank" title="全美重启后迎“黑色里程碑”，第二波疫情正在路上？">
+                        <i class="icon icon-video"></i>
+                        全美重启后迎“黑色里程碑”，第二波疫情正在路上？
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="list16" data-spm="top-news4">
+                    <ul>
+                        <li><a data-param="?_f=index_news_12" href="https://www.sohu.com/a/397981072_162522" target="_blank" title="立觇标！登顶后，世界之巅5G实时画面来了！">
+                        <i class="icon icon-video"></i>
+                        <span class="first-title">立觇标！登顶后，世界之巅5G实时画面来了！</span>
+                        </a></li>
+                        <li><a data-param="?_f=index_news_13" href="https://www.sohu.com/a/397992709_162522" target="_blank" title="河南省教育厅：中小学校园内，学生和老师无需戴口罩">
+                        
+                        河南省教育厅：中小学校园内，学生和老师无需戴口罩
+                        </a></li>
+                        <li><a data-param="?_f=index_news_14" href="https://www.sohu.com/a/397909897_120488303" target="_blank" title="西安再现环卫工考核扫灰称重 一平方米灰尘超过5g会罚款">
+                        
+                        西安再现环卫工考核扫灰称重 一平方米灰尘超过5g会罚款
+                        </a></li>
+                        <li><a data-param="?_f=index_news_15" href="https://www.sohu.com/a/397923232_260616" target="_blank" title="安徽一高校学生集体发热未规范上报，官方：思想麻痹">
+                        <i class="icon icon-video"></i>
+                        安徽一高校学生集体发热未规范上报，官方：思想麻痹
+                        </a></li>
+                        <li><a data-param="?_f=index_news_16" href="https://www.sohu.com/a/397905895_100236208" target="_blank" title="公司组织团建越野时没收手机，结果18人掉队6人失联">
+                        <i class="icon icon-video"></i>
+                        公司组织团建越野时没收手机，结果18人掉队6人失联
+                        </a></li>
+                        <li><a data-param="?_f=index_news_17" href="https://www.sohu.com/a/397937904_314192" target="_blank" title="教练都惊呆了！ 疫情期320斤小伙独守训练营减150斤">
+                        
+                        教练都惊呆了！ 疫情期320斤小伙独守训练营减150斤
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="list16" data-spm="top-news5">
+                    <ul>
+                        <li><a data-param="?_f=index_news_18" href="https://www.sohu.com/a/397939871_115362" target="_blank" title="一碗356.95元？官方回应“天价米粉”：食材明码标价">
+                        <i class="icon icon-video"></i>
+                        <span class="first-title">一碗356.95元？官方回应“天价米粉”：食材明码标价</span>
+                        </a></li>
+                        <li><a data-param="?_f=index_news_19" href="https://www.sohu.com/a/397993147_115362" target="_blank" title="北京市交委立案调查ofo小黄车 你的押金退回来了吗？">
+                        
+                        北京市交委立案调查ofo小黄车 你的押金退回来了吗？
+                        </a></li>
+                        <li><a data-param="?_f=index_news_20" href="https://www.sohu.com/a/397954088_100191048" target="_blank" title="15亿医疗费顶级医护天团，为何赌王这次没能续命成功？">
+                        <i class="icon icon-video"></i>
+                        15亿医疗费顶级医护天团，为何赌王这次没能续命成功？
+                        </a></li>
+                        <li><a data-param="?_f=index_news_21" href="https://www.sohu.com/a/397979248_114988" target="_blank" title="福建GDP首超台湾，这项“历史性突破”比预想早了一年">
+                        
+                        福建GDP首超台湾，这项“历史性突破”比预想早了一年
+                        </a></li>
+                        <li><a data-param="?_f=index_news_22" href="https://www.sohu.com/a/397907069_260616" target="_blank" title="连花清瘟临床数据披露：促治愈但转阴作用不大">
+                        <i class="icon icon-video"></i>
+                        连花清瘟临床数据披露：促治愈但转阴作用不大
+                        </a></li>
+                        <li><a data-param="?_f=index_news_23" href="https://www.sohu.com/a/397991898_115479" target="_blank" title="胡锡进灵魂拷问特朗普：你真会派美军“登陆”香港吗？">
+                        
+                        胡锡进灵魂拷问特朗普：你真会派美军“登陆”香港吗？
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="list16" data-spm="top-news6">
+                    <ul>
+                            <li><a data-param="?_f=index_news_24" href="https://www.sohu.com/a/397952508_260616" target="_blank" title="收盘暴涨53.24%，瑞幸咖啡股价是谁在推高？">
+                            
+                            <span class="first-title">收盘暴涨53.24%，瑞幸咖啡股价是谁在推高？</span>
+                        </a></li>
+                            <li><a data-param="?_f=index_news_25" href="https://www.sohu.com/a/397960177_116237" target="_blank" title="蒙古国送中国的3万只羊“抵达”北京延庆？假的！">
+                            
+                            蒙古国送中国的3万只羊“抵达”北京延庆？假的！
+                        </a></li>
+                            <li><a data-param="?_f=index_news_26" href="https://www.sohu.com/a/397985782_162522" target="_blank" title="又作妖！“嫖到失联”的郑文杰搞众筹向英国捐钱抗疫">
+                            
+                            又作妖！“嫖到失联”的郑文杰搞众筹向英国捐钱抗疫
+                        </a></li>
+                            <li><a data-param="?_f=index_news_27" href="https://www.sohu.com/a/397984351_162522" target="_blank" title="香港四大地产商表态，支持“港区国安法”">
+                            
+                            香港四大地产商表态，支持“港区国安法”
+                        </a></li>
+                        </a></li>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+    <div class="right sidebar">
+
+        <!-- 搜狐精选 -->
+<div class="sohu-choice clearfix" id="new-sohu-choice" data-role="index-sohu-choice" >
+    <div class="sohu-city-choice-wrap">
+        <div class="wrap-tabs" data-spm="choice-nav">
+            <div class="tabs-choice" id="tabs-city" style="display: none"></div>
+            <div class="tabs-divideline" id="tabs-divideline" style="display:none"></div>
+            <div class="tabs-choice" id="tabs-jingxuan"><span class="tt"></span>搜狐精选</div>
+            <div data-role="switch-choice" class="change-btn" data-spm-acode="8071" id="city-choice-switch-choice" style="display: block">换一换<i class="icon change-icon icon-rotate"></i></div>
+        </div>
+        <div class="content" data-role="blocks">
+            <div class="content-all"> 
+                <div class="content-left" id="city-sohu-choice-tabs" style="margin-left: 0px" data-spm="choice" > 
+                                                    <div data-role="blocks-content">
+                                <a href="//www.sohu.com/a/397797671_565689?scm=1002.590044.0.28b5-4ab?_f=index_select_0" title="2020年房地产走势确定" target="_blank"> 
+                                    <div class="content-first">
+                                        <div class="image-wrap">
+                                            <img class="base-img" src="//p6.itc.cn/images01/20200526/e19cc219381e4b7988507f69d69c012c.jpeg" />
+                                            <div class="choice-img"></div>
+                                        </div> 
+                                        <div class="img-cover"></div>
+                                        <h4 class="first-title">2020年房地产走势确定</h4>
+                                    </div>
+                                </a>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397806604_420076?scm=1002.590044.0.28b5-4ab?_f=index_select_1" title="怀铁公安深入内部单位开展法制宣传" target="_blank"> <div class="other-title">怀铁公安深入内部单位开展法制宣传</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397918071_420076?scm=1002.590044.0.28b5-4ab?_f=index_select_2" title="云南泸水：爱心助学点亮梦想 社会关爱温暖童心" target="_blank"> <div class="other-title">云南泸水：爱心助学点亮梦想 社会关爱温暖童心</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397817851_359980?scm=1002.590044.0.28b5-4ab?_f=index_select_3" title="赌王何鸿燊98岁逝世，他的长寿秘诀是什么？" target="_blank"> <div class="other-title">赌王何鸿燊98岁逝世，他的长寿秘诀是什么？</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397808259_100001551?scm=1002.590044.0.28b5-4ab?_f=index_select_4" title="爱建证券3家营业部暴露合规问题，年内曾因承销违约债遭国元证券起诉" target="_blank"> <div class="other-title">爱建证券3家营业部暴露合规问题，年内曾因承销违约债遭国元证券起诉</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397943098_115565?scm=1002.590044.0.28b5-4ab?_f=index_select_5" title="卢伟冰：Redmi 10X把5G售价拉到1500元档，将推动5G手机普及" target="_blank"> <div class="other-title">卢伟冰：Redmi 10X把5G售价拉到1500元档，将推动5G手机普及</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                </div>
+                                <div data-role="blocks-content" style="display:none;">
+                                <a href="//www.sohu.com/a/397964915_157078?scm=1002.590044.0.28b5-4ab?_f=index_select_6" title="14岁以上不算强奸？ 中国性同意年龄有待提高|两会想知道" target="_blank"> 
+                                    <div class="content-first">
+                                        <div class="image-wrap">
+                                            <img class="base-img" src="//p5.itc.cn/c_cut,x_163,y_0,w_574,h_383/images01/20200527/60eb6e76e0b843cf86ad969dd08de6fb.jpeg" />
+                                            <div class="choice-img"></div>
+                                        </div> 
+                                        <div class="img-cover"></div>
+                                        <h4 class="first-title">14岁以上不算强奸？ 中国性同意年龄有待提高|两会想知道</h4>
+                                    </div>
+                                </a>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397777367_467279?scm=1002.590044.0.28b5-4ab?_f=index_select_7" title="54岁温碧霞也爱“渣女风”？傻白甜该学学了！" target="_blank"> <div class="other-title">54岁温碧霞也爱“渣女风”？傻白甜该学学了！</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397953587_420076?scm=1002.590044.0.28b5-4ab?_f=index_select_8" title="为了自用  麻城三男子组团盗窃私家车轮胎17条落网" target="_blank"> <div class="other-title">为了自用  麻城三男子组团盗窃私家车轮胎17条落网</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397712954_467279?scm=1002.590044.0.28b5-4ab?_f=index_select_9" title="优衣库 x 碧梨 x 村上隆 即将发售！三巨头联名能否再创 UNIQLO x KAWS 奇迹？" target="_blank"> <div class="other-title">优衣库 x 碧梨 x 村上隆 即将发售！三巨头联名能否再创 UNIQLO x KAWS 奇迹？</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397966530_204321?scm=1002.590044.0.28b5-4ab?_f=index_select_10" title="飞手商拍破解限高程序被抓，最高“入侵”博鳌机场1608米" target="_blank"> <div class="other-title">飞手商拍破解限高程序被抓，最高“入侵”博鳌机场1608米</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397778029_100160903?scm=1002.590044.0.28b5-4ab?_f=index_select_11" title="杨燕绥：农民有社会养老保险解决吃饭问题，更需要照护失能失智的人" target="_blank"> <div class="other-title">杨燕绥：农民有社会养老保险解决吃饭问题，更需要照护失能失智的人</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                </div>
+                                <div data-role="blocks-content" style="display:none;">
+                                <a href="//www.sohu.com/a/397809589_359980?scm=1002.590044.0.28b5-4ab?_f=index_select_12" title="甲状腺周 | 秦利：为什么低T3或低T4不能诊断甲减？" target="_blank"> 
+                                    <div class="content-first">
+                                        <div class="image-wrap">
+                                            <img class="base-img" src="//p9.itc.cn/c_cut,x_13,y_0,w_777,h_518/images01/20200525/46a74255b3a54991b2aacc219f3a0eac.png" />
+                                            <div class="choice-img"></div>
+                                        </div> 
+                                        <div class="img-cover"></div>
+                                        <h4 class="first-title">甲状腺周 | 秦利：为什么低T3或低T4不能诊断甲减？</h4>
+                                    </div>
+                                </a>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397965709_104952?scm=1002.590044.0.28b5-4ab?_f=index_select_13" title="英国首相：新冠肺炎会导致视力下降" target="_blank"> <div class="other-title">英国首相：新冠肺炎会导致视力下降</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397775190_420076?scm=1002.590044.0.28b5-4ab?_f=index_select_14" title="沈铁警方提示：此类物品带进站，拘留！" target="_blank"> <div class="other-title">沈铁警方提示：此类物品带进站，拘留！</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397781222_420076?scm=1002.590044.0.28b5-4ab?_f=index_select_15" title="点滴之处显真情 首都公交民警热心服务乘客" target="_blank"> <div class="other-title">点滴之处显真情 首都公交民警热心服务乘客</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397813333_117369?scm=1002.590044.0.28b5-4ab?_f=index_select_16" title="神吐槽：女游客在上海欢乐谷阻止插队反被打，园方管理到位了吗？" target="_blank"> <div class="other-title">神吐槽：女游客在上海欢乐谷阻止插队反被打，园方管理到位了吗？</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397970719_100162316?scm=1002.590044.0.28b5-4ab?_f=index_select_17" title="周六选房！首付40万起，面向城六区，但是......" target="_blank"> <div class="other-title">周六选房！首付40万起，面向城六区，但是......</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                </div>
+                                <div data-role="blocks-content" style="display:none;">
+                                <a href="//www.sohu.com/a/397941863_100001551?scm=1002.590044.0.28b5-4ab?_f=index_select_18" title="分众传媒否认“配合瑞幸虚增广告费”：从瑞幸获4.7亿广告收入，已全部收回" target="_blank"> 
+                                    <div class="content-first">
+                                        <div class="image-wrap">
+                                            <img class="base-img" src="//p1.itc.cn/c_cut,x_0,y_8,w_500,h_333/images01/20200527/640be3a7bf2847a4953af877a3c59f34.jpeg" />
+                                            <div class="choice-img"></div>
+                                        </div> 
+                                        <div class="img-cover"></div>
+                                        <h4 class="first-title">分众传媒否认“配合瑞幸虚增广告费”：从瑞幸获4.7亿广告收入，已全部收回</h4>
+                                    </div>
+                                </a>
+                                <div> 
+                                    <div class="content-other-item">
+                                        <a href="//www.sohu.com/a/397997367_484992?scm=1002.590044.0.28b5-4ab?_f=index_select_19" title="两会@教育 | 周洪宇：有些地区看似编制不少，实际是严重缺一线教师" target="_blank"> <div class="other-title">两会@教育 | 周洪宇：有些地区看似编制不少，实际是严重缺一线教师</div></a>
+                                        <div class="other-divideline"></div>
+                                    </div>   
+                                </div>
+                                </div>
+                </div>  
+                <div class="content-right">
+                        <div id="city-sohu-choice" style="width:300px;height:424px;position:relative" ></div>
+                    </div> 
+                </div>
+        </div> 
+        <div class="loading" style="display:none">
+                <i></i>
+                <span>加载中</span>
+        </div> 
+    </div>
+</div>
+   
+         
+
+
+        <div class="godR" id="god_1" data-role="godR">
+            
+        </div>
+<div class="hot-article bordR clearfix" data-role='hot-news' data-spm="list">
+</div>    </div>
+</div>
+         <div class="god-wrapper area god-main clearfix"><div class="area" data-role="god_column"></div></div>
+<!--娱乐-->
+    <div class="area clearfix public content-yule channel-content" data-role="yule-section">
+
+        <!--标题区域-->
+        <!--左侧-->
+        <div class="main left">
+            <div class="title-cut clearfix" data-spm="yule-nav">
+                <ul>
+                    <li class="ch cur" data-role="nav-tab" data-rel="main-panel" data-type="main"><a href="http://yule.sohu.com/" target="_blank">娱乐</a></li>
+                            <li data-type="video" data-role="nav-tab" data-rel="video-panel" data-tab-order="1" data-sync="sync"><a href="http://tv.sohu.com" target="_blank">视频</a></li>
+                </ul>
+                <span class="link">
+                <a href="http://soyule.sohu.com/1406" target="_blank">明星八卦</a>
+                <a href="http://tv.sohu.com/drama/" target="_blank">电视剧</a>
+                <a href="http://tv.sohu.com/movie" target="_blank">电影</a>
+                <a href="http://tv.sohu.com/show/" target="_blank">综艺</a>
+                <a href="http://soyule.sohu.com/1407" target="_blank">美图</a>
+
+            <a href="http://yule.sohu.com/" target="_blank">进入娱乐首页 &gt;</a></span>
+            </div>
+            <div>
+                <div class="main-box clearfix yule-news" data-role="main-panel">
+                    <!--左侧头图-->
+                        <div class="main-left left" data-role="focus" data-spm="yule-pics">
+                            <div class="pic-focus">
+                                <!--这个关于url的判断是因为从OS后台传入的链接有相对路径 有绝对路径-->
+                                <a data-param="?_f=index_yulefocus_0_0" href="https://www.sohu.com/picture/397960851"
+                                    title="杨幂穿低胸背心秀名品身材 双臂纤细心型项链抢镜" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_220,q_70/c_cut,x_0,y_0,w_319,h_213/os/news/5d5ea11aaedeadbc8f7cb866f752dc9d.jpg" alt="杨幂穿低胸背心秀名品身材 双臂纤细心型项链抢镜" src=//statics.itc.cn/web/static/images/pic/preload.png>
+                                    <span class="txt">杨幂穿低胸背心秀名品身材 双臂纤细心型项链抢镜</span></a>
+                            </div>
+                            <div class="pic-group clearfix">
+                                <ul>
+                                            <li class=" ">
+                                                <a data-param="?_f=index_yulefocus_0_1" href="https://www.sohu.com/picture/397867101"
+                                                    title='袁泉带女儿玩滑板车' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_308,y_294,w_2400,h_1600/os/news/a7ce9ec7168bb35f6a99efa87fed2793.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="袁泉带女儿玩滑板车">
+                                                    <span class="txt">袁泉带女儿玩滑板车</span></a>
+                                            </li>
+                                            <li class=" end  ">
+                                                <a data-param="?_f=index_yulefocus_0_2" href="https://www.sohu.com/picture/397793416"
+                                                    title='郑爽做公益穿白衬衫清纯' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_26,y_-4,w_555,h_370/os/news/65452395678be21e6cbdcc5e8556f036.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="郑爽做公益穿白衬衫清纯">
+                                                    <span class="txt">郑爽做公益穿白衬衫清纯</span></a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    <!--文章-->
+                        <div class="main-right right" data-role="main-news">
+                                    <div class="list16" data-spm="yule-news11">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_0_0" href="https://www.sohu.com/a/397978203_114941" target="_blank" title='李嘉诚悼念“赌王”何鸿燊:我们是多年朋友 愿其家人节哀'>
+                                                    <strong>李嘉诚悼念“赌王”何鸿燊:我们是多年朋友 愿其家人节哀</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_1_0" href="https://www.sohu.com/a/397682269_356941" target="_blank" title='何鸿燊大房小女儿状告胞姐 赌王5000亿家产豪门争夺战将上线?'>
+                                                    何鸿燊大房小女儿状告胞姐 赌王5000亿家产豪门争夺战将上线?
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_2_0" href="https://tv.sohu.com/s/m/special/qfact/index.html?roomId=312813498&amp;channeled=1211160001&amp;sf_atype=sdk&amp;sf_pro=1&amp;resorce_click=&amp;sf_cv=7.9.5&amp;sf_mtype=6" target="_blank" title='正在直播：伍嘉成狐厂云面试 唱跳举铁上演极限挑战！'>
+                                                    正在直播：伍嘉成狐厂云面试 唱跳举铁上演极限挑战！
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_3_0" href="https://www.sohu.com/a/397949306_616544" target="_blank" title='太能折腾！杨天真“炫耀”北大学历，大码女装店还开不开？'>
+                                                    太能折腾！杨天真“炫耀”北大学历，大码女装店还开不开？
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_4_0" href="https://www.sohu.com/a/397956830_253355" target="_blank" title='伊能静儿子社交账号曝光！披长发化浓妆，扮女装表情冷酷'>
+                                                    伊能静儿子社交账号曝光！披长发化浓妆，扮女装表情冷酷
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_5_0" href="https://www.sohu.com/a/397905409_425777" target="_blank" title='夸欧阳娜娜演技的何炅，曾自曝一场戏拍八遍才过，被讽总接烂片'>
+                                                    夸欧阳娜娜演技的何炅，曾自曝一场戏拍八遍才过，被讽总接烂片
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list16" data-spm="yule-news12">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_6_0" href="https://www.sohu.com/a/397939505_114941" target="_blank" title='人大代表赵冬苓：建议设立污点艺人惩诫机制 进行分级惩诫'>
+                                                    <strong>人大代表赵冬苓：建议设立污点艺人惩诫机制 进行分级惩诫</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_7_0" href="https://www.sohu.com/a/397995477_413670" target="_blank" title='奚梦瑶生下长孙,在赌王悼文中仍没姓名!昔日超模沦为豪门金丝雀?'>
+                                                    奚梦瑶生下长孙,在赌王悼文中仍没姓名!昔日超模沦为豪门金丝雀?
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_8_0" href="https://www.sohu.com/a/397875036_114941" target="_blank" title='还未出道就负面缠身，选秀练习生为何频频“暴雷”？'>
+                                                    还未出道就负面缠身，选秀练习生为何频频“暴雷”？
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_9_0" href="https://www.sohu.com/a/397728510_356941" target="_blank" title='28岁杨采钰被58岁陈金飞疏远?曾抢刘亦菲资源的她忘年恋要凉?'>
+                                                    28岁杨采钰被58岁陈金飞疏远?曾抢刘亦菲资源的她忘年恋要凉?
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_10_0" href="https://www.sohu.com/a/397914453_260998" target="_blank" title='汪海林称流量明星最大的挑战是带货，能力比不上李佳琦'>
+                                                    汪海林称流量明星最大的挑战是带货，能力比不上李佳琦
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_yulenews_0_11_0" href="https://www.sohu.com/a/397873043_603537" target="_blank" title='44岁黄海波仍住狭窄小床，自称现在最关心的是谁能借他5000块？'>
+                                                    44岁黄海波仍住狭窄小床，自称现在最关心的是谁能借他5000块？
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                        </div>
+                </div>
+
+                <!--视频tab-->
+                            <div class="main-box video-group yule-video clearfix" style="display:none" data-role="video-panel" data-spm="yule-video">
+                                <ul>
+                                        <li class=""><a data-param="?_f=index_yule_1_0" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwMzE4MC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_900,y_525,w_1851,h_1234/os/news/34242dd1379463ba84fdfab072e1052d.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="袁泉带女儿玩滑板车 十岁的夏哈哈身材高挑"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">袁泉带女儿玩滑板车 十岁的夏哈哈身材高挑</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_1" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwNjQzMC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_15,y_0,w_494,h_330/os/news/53586f1ddce28a7df735d4f0e8931baa.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="何猷君晒全家福悼念父亲 没有文字只有表情"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">何猷君晒全家福悼念父亲 没有文字只有表情</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_2" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwNzEzNi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_10,y_2,w_395,h_264/os/news/5e379a28a958e891e70b11fbae127811.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="张馨予穿男装拍大片好撩 突然跳舞反差萌"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">张馨予穿男装拍大片好撩 突然跳舞反差萌</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_3" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwODYyNi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_3,y_205,w_669,h_446/os/news/898cda1301954189b66424c09f734e2.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="李承铉5月27日表白戚薇 谐音意为&quot;我爱戚&quot;"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">李承铉5月27日表白戚薇 谐音意为&quot;我爱戚&quot;</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=" end "><a data-param="?_f=index_yule_1_4" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwNDU0MC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_0,w_494,h_330/os/news/cf55b0c1a400ad1af122f4e575bdd56d.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="GNZ48方回应直播时惊现呼救声：被蟑螂吓到了"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">GNZ48方回应直播时惊现呼救声：被蟑螂吓到了</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_5" href="https://tv.sohu.com/v/cGwvOTU4NDAzNC8xOTYyNjUxMTIuc2h0bWw=.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_19,w_750,h_500/os/news/ec5171faa6684e242074ea8f3c94a73b.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="满满职场范！宋祖儿复工拍戏 紧张背台词"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">满满职场范！宋祖儿复工拍戏 紧张背台词</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_6" href="https://tv.sohu.com/v/cGwvOTU4NDAzNC8xOTYyNjQ4NzEuc2h0bWw=.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_60,y_43,w_578,h_385/os/news/9818952aec847264588cbea75b796eae.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="潮味十足！阚清子现身上海机场 手机刷不停"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">潮味十足！阚清子现身上海机场 手机刷不停</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_7" href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwOTYwNC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_685,y_371,w_1525,h_1017/os/news/db469c4587fb41991ee647f3e8ce77c.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="毛晓彤会友喝咖啡 妆容精致似芭比娃娃气色佳"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">毛晓彤会友喝咖啡 妆容精致似芭比娃娃气色佳</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_yule_1_8" href="http://tv.sohu.com/v/MjAyMDA1MjAvbjYwMDg1Mzk3Mi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_0,w_319,h_213/os/news/737a99984c057bae80dc61476bd8382e.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="曹峻祥曝《陈情令》内幕 一眼看出彭于晏腹肌"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">曹峻祥曝《陈情令》内幕 一眼看出彭于晏腹肌</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=" end "><a data-param="?_f=index_yule_1_9" href="https://tv.sohu.com/v/MjAyMDA1MjIvbjYwMDg1NDY0NS5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_0,w_319,h_213/os/news/854a2798ddfcc703126b4a743918c112.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="甄珍忆与谢贤恋爱往事 谢伯乐李翰祥知遇之恩"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">甄珍忆与谢贤恋爱往事 谢伯乐李翰祥知遇之恩</span></a><span class="des"></span>
+                                        </li>
+                                </ul>
+                            </div>
+                    <!--广告-->
+            </div>
+        </div>
+        <!--右侧-->
+        <div class="sidebar right">
+            <!--左侧导航：largePlugin为true:大插件， area_1 可能为ad或pic ,area_2 可能为hotAuthor-->
+            <!--大插件-->
+<div class="yule-play clearfix bordR" data-role="yule-pay" data-spm="yule-list">
+    <div class="titleR"><span class="tt"><a href="http://tv.sohu.com/yule/" target="_blank">娱乐播报</a></span></div>
+    <div class="yule-scroll">
+        <div class="yule-scroll-cont" data-role="wrapper">
+                            <div class="pic-group" >
+                <ul>
+                <li class=""><a href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwODkwNi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_86/c_cut,x_143,y_103,w_483,h_322/os/news/6772b3363b599f1bef35f05aec7f4696.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="陈乔恩黑西装攻气十足"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                <span class="txt">陈乔恩黑西装攻气十足</span></a></li>
+                <li class="end"><a href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwNzgyMS5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_86/c_cut,x_8,y_0,w_494,h_330/os/news/c7e90c64772e039b80595aa2d2c88f9a.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="郑元畅张为陈妍希庆生"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                <span class="txt">郑元畅张为陈妍希庆生</span></a></li>
+                </ul>
+            </div>
+            <div class="pic-group" >
+                <ul>
+                <li class=""><a href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQwODU5NS5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_86/c_cut,x_17,y_94,w_628,h_418/os/news/c4bbe0fbb2aa9bb98f574369dfc59949.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="曾之乔澄清怀孕传闻"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                <span class="txt">曾之乔澄清怀孕传闻</span></a></li>
+                <li class="end"><a href="https://tv.sohu.com/v/dXMvMzQxMDE0ODc3LzE5NjQxMTQyOC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_86/c_cut,x_15,y_0,w_494,h_330/os/news/877d4b7175923b1ddab138d49feefb8d.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="邓超和中学生一起打球"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                <span class="txt">邓超和中学生一起打球</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-auto">
+        <ul>
+            <li class="cur" data-role="bullet" data-id="0"></li>
+            <li class="" data-role="bullet" data-id="1"></li>
+        </ul>
+    </div>
+</div>            <div class="godR" data-role="godR"></div>
+
+            <!--娱乐右侧插件-->
+
+
+        </div>
+    </div>
+<!--体育-->
+    <div class="area clearfix public content-sports channel-content" data-role="sports-section">
+
+        <!--标题区域-->
+        <!--左侧-->
+        <div class="main left">
+            <div class="title-cut clearfix" data-spm="sports-nav">
+                <ul>
+                    <li class="ch cur" data-role="nav-tab" data-rel="main-panel" data-type="main"><a href="http://sports.sohu.com/" target="_blank">体育</a></li>
+                            <li data-type="video" data-role="nav-tab" data-rel="video-panel" data-tab-order="1" data-sync="sync"><a href="http://tv.sohu.com/sports/" target="_blank">体育视频</a></li>
+                </ul>
+                <span class="link">
+                <a href="//sports.sohu.com/s/business" target="_blank">创业</a>
+                <a href="//www.sohu.com/c/17" target="_blank">自媒体</a>
+                <a href="//sports.sohu.com/s/nba" target="_blank">NBA</a>
+                <a href="//sports.sohu.com/s/fiba" target="_blank">男篮</a>
+                <a href="//sports.sohu.com/s/csl" target="_blank">中超</a>
+                <a href="//sports.sohu.com/s/premierleague" target="_blank">英超</a>
+                <a href="//sports.sohu.com/s/laliga" target="_blank">西甲</a>
+                <a href="//sports.sohu.com/s/uefacl" target="_blank">欧冠</a>
+
+            <a href="http://sports.sohu.com/" target="_blank">进入体育首页 &gt;</a></span>
+            </div>
+            <div>
+                <div class="main-box clearfix sports-news" data-role="main-panel">
+                    <!--左侧头图-->
+                        <div class="main-left left" data-role="focus" data-spm="sports-pics">
+                            <div class="pic-focus">
+                                <!--这个关于url的判断是因为从OS后台传入的链接有相对路径 有绝对路径-->
+                                <a data-param="?_f=index_sportsfocus_0_0" href="https://www.sohu.com/picture/397979974"
+                                    title="珠峰高程测量登山队队员在峰顶开展测量工作" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_220,q_70/c_cut,x_75,y_63,w_606,h_404/os/news/ae3453f590ce405b811774ef9176882b.jpg" alt="珠峰高程测量登山队队员在峰顶开展测量工作" src=//statics.itc.cn/web/static/images/pic/preload.png>
+                                    <span class="txt">珠峰高程测量登山队队员在峰顶开展测量工作</span></a>
+                            </div>
+                            <div class="pic-group clearfix">
+                                <ul>
+                                            <li class=" ">
+                                                <a data-param="?_f=index_sportsfocus_0_1" href="https://www.sohu.com/picture/397907249"
+                                                    title='浙江广厦备战训练 胡金秋伤愈现身仍戴护腰' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_102,y_15,w_818,h_545/os/news/b87e14c1559598e5d900f79f2bb03b5e.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="浙江广厦备战训练 胡金秋伤愈现身仍戴护腰">
+                                                    <span class="txt">浙江广厦备战训练 胡金秋伤愈现身仍戴护腰</span></a>
+                                            </li>
+                                            <li class=" end  ">
+                                                <a data-param="?_f=index_sportsfocus_0_2" href="https://www.sohu.com/picture/397906724"
+                                                    title='尼克-杨前女友性感热辣 魔鬼身材的说唱歌手' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_58,y_44,w_818,h_545/os/news/13e62a0f566445aa21faed590316950a.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="尼克-杨前女友性感热辣 魔鬼身材的说唱歌手">
+                                                    <span class="txt">尼克-杨前女友性感热辣 魔鬼身材的说唱歌手</span></a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    <!--文章-->
+                        <div class="main-right right" data-role="main-news">
+                                    <div class="list16" data-spm="sports-news11">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_0_0" href="https://www.sohu.com/a/397950309_114977" target="_blank" title='2020珠峰高程测量成功登顶 中国第七次完成顶峰测量'>
+                                                    <strong>2020珠峰高程测量成功登顶 中国第七次完成顶峰测量</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_1_0" href="http://sports.sohu.com/s/nba" target="_blank" title='NBA-曝联盟复赛时间可能推迟至8月 季后赛效仿世界杯赛制'>
+                                                    NBA-曝联盟复赛时间可能推迟至8月 季后赛效仿世界杯赛制
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_2_0" href="https://www.sohu.com/a/397903278_458722" target="_blank" title='深度:斯隆对手不只乔丹'>
+                                                    深度:斯隆对手不只乔丹
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_sportsnews_0_2_1" href="https://www.sohu.com/a/397913989_458722" target="_blank" title='库班反对效仿世界杯'>
+                                                            库班反对效仿世界杯
+                                                        </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_sportsnews_0_2_2" href="https://www.sohu.com/a/397944439_458722" target="_blank" title='曝下赛季工资帽下降'>
+                                                            曝下赛季工资帽下降
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_3_0" href="https://www.sohu.com/a/397942551_458722" target="_blank" title='安东尼或回丹佛效力'>
+                                                    安东尼或回丹佛效力
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_sportsnews_0_3_1" href="https://www.sohu.com/a/397931095_458722" target="_blank" title='沃尔自称已110%恢复'>
+                                                            沃尔自称已110%恢复
+                                                        </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_sportsnews_0_3_2" href="https://www.sohu.com/a/397920891_458722" target="_blank" title='格林否认詹皇组织训练'>
+                                                            格林否认詹皇组织训练
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_4_0" href="https://sports.sohu.com/s/cba" target="_blank" title='京媒:CBA或6月下旬开赛 各队抵达赛区后还将进行核酸检测'>
+                                                    京媒:CBA或6月下旬开赛 各队抵达赛区后还将进行核酸检测
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_5_0" href="https://www.sohu.com/subject/319494" target="_blank" title='曝英超提出新诉求 无论本赛季如何下赛季9月开幕'>
+                                                    曝英超提出新诉求 无论本赛季如何下赛季9月开幕
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list16" data-spm="sports-news12">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_6_0" href="https://sports.sohu.com/s/cnmenfootball" target="_blank" title='8问国足集训:战力并没有提升 李可洛国富只是走过场?'>
+                                                    <strong>8问国足集训:战力并没有提升 李可洛国富只是走过场?</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_7_0" href="https://www.sohu.com/a/397864801_463728" target="_blank" title='深度-国足连胜需理性看待 主要框架已搭成世预赛见真章'>
+                                                    深度-国足连胜需理性看待 主要框架已搭成世预赛见真章
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_8_0" href="https://sports.sohu.com/s/csl" target="_blank" title='中超-上港4外援首发1-3中甲队'>
+                                                    中超-上港4外援首发1-3中甲队
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_sportsnews_0_8_1" href="https://www.sohu.com/a/397910155_463728" target="_blank" title='深足买下姜至鹏助丁海峰回华夏'>
+                                                            深足买下姜至鹏助丁海峰回华夏
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_9_0" href="https://sports.sohu.com/s/laliga" target="_blank" title='西甲-刮掉胡子梅西无敌！训练奋力抢断 一条龙戏耍特狮'>
+                                                    西甲-刮掉胡子梅西无敌！训练奋力抢断 一条龙戏耍特狮
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_10_0" href="https://sports.sohu.com/s/seriea" target="_blank" title='意甲-曝国米欲换赞助商！恒大三星成候选 望年入3000万'>
+                                                    意甲-曝国米欲换赞助商！恒大三星成候选 望年入3000万
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_sportsnews_0_11_0" href="https://sports.sohu.com/s/premierleague" target="_blank" title='英超-8场4球！伊哈洛大概率续租曼联 索帅亲自下场挽留'>
+                                                    英超-8场4球！伊哈洛大概率续租曼联 索帅亲自下场挽留
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                        </div>
+                </div>
+
+                <!--视频tab-->
+                            <div class="main-box video-group sports-video clearfix" style="display:none" data-role="video-panel" data-spm="sports-video">
+                                <ul>
+                                        <li class=""><a data-param="?_f=index_sports_1_0" href="https://tv.sohu.com/v/MjAyMDA1MjcvbjYwMDg1NjMxMC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_139,y_33,w_540,h_360/os/news/a1e5fe238a545aa1ad719b8ce6b6118c.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="董学升双响艾克森破门 国足教学赛4-0上海申花"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">董学升双响艾克森破门 国足教学赛4-0上海申花</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_1" href="https://tv.sohu.com/v/MjAyMDA1MjcvbjYwMDg1NjMzMC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_136,y_33,w_540,h_360/os/news/35808a95e8a949f0187f77318acf913d.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="38岁伊布跟腱再次受伤 若严重可能选择退役"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">38岁伊布跟腱再次受伤 若严重可能选择退役</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_2" href="http://tv.sohu.com/v/MjAyMDA1MjUvbjYwMDg1NTQ4Ny5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_102,y_62,w_921,h_614/os/news/edaa2e7182e55a357b37454943a3f799.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="国足训练 竞争成“铁三期”主旋律"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">国足训练 竞争成“铁三期”主旋律</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_3" href="http://tv.sohu.com/v/MjAyMDA1MjUvbjYwMDg1NTQ4My5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_8,w_1024,h_682/os/news/8895e5fb5250864b34b57b1ab925cdc4.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="多特不会续约格策 红黑军团抛出橄榄枝"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">多特不会续约格策 红黑军团抛出橄榄枝</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=" end "><a data-param="?_f=index_sports_1_4" href="http://tv.sohu.com/v/MjAyMDA1MjAvbjYwMDg1MzU3Mi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_93,y_61,w_744,h_496/os/news/e896f81a6a01aa0f3b13ae48762de6a1.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="英超本周二恢复小组训练 有望六月中旬复赛"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">英超本周二恢复小组训练 有望六月中旬复赛</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_5" href="https://tv.sohu.com/v/MjAyMDA1MTUvbjYwMDg1MjAwMi5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_45,y_0,w_675,h_450/os/news/dce7b858a3498d6459b3ef625843efb6.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="意甲联赛有望6月13日重启 8月2日前结束"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">意甲联赛有望6月13日重启 8月2日前结束</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_6" href="https://tv.sohu.com/v/MjAyMDA1MTUvbjYwMDg1MTk4OC5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_79,y_0,w_675,h_450/os/news/d747a02f8305d67086ea99c1d0cee45c.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="国足集训第三天 洛国富融入与队友打成一片"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">国足集训第三天 洛国富融入与队友打成一片</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_7" href="http://tv.sohu.com/v/MjAyMDA1MTMvbjYwMDg1MTEzNS5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_58,y_6,w_914,h_609/os/news/179f228df45147c52b69fde14a636bcc.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="五年沉浮终说再见 天海职业联赛历程回顾"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">五年沉浮终说再见 天海职业联赛历程回顾</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=""><a data-param="?_f=index_sports_1_8" href="http://tv.sohu.com/v/MjAyMDA1MTMvbjYwMDg1MTEzOS5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_53,y_94,w_818,h_545/os/news/a94e57449d708836eb35d40c0bfde0ee.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="金信煜破门 绿地申花蓝白争霸赛白队胜"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">金信煜破门 绿地申花蓝白争霸赛白队胜</span></a><span class="des"></span>
+                                        </li>
+                                        <li class=" end "><a data-param="?_f=index_sports_1_9" href="http://tv.sohu.com/v/MjAyMDA1MTMvbjYwMDg1MTEzMy5zaHRtbA==.html" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_0,y_56,w_932,h_621/os/news/aed9b77c44d055f543462636e02fab9f.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="国足在上海集训 王燊超渴望参加40强赛"><span class="linear-box"><em class="linear-bg"></em></span><i class="icon play-icon"></i>
+                                        <span class="txt">国足在上海集训 王燊超渴望参加40强赛</span></a><span class="des"></span>
+                                        </li>
+                                </ul>
+                            </div>
+                    <!--广告-->
+            </div>
+        </div>
+        <!--右侧-->
+        <div class="sidebar right">
+            <!--左侧导航：largePlugin为true:大插件， area_1 可能为ad或pic ,area_2 可能为hotAuthor-->
+            <!--大插件-->
+              <div class="clear  plugin plugin-side-right" data-widget-id="sports_index_component_1" style="display: block; overflow: visible;"></div>
+            <!--娱乐右侧插件-->
+
+
+        </div>
+    </div>
+ <div class="god-wrapper area clearfix">
+        <div class="god-main" data-role="god_column"></div>
+</div>
+<!--财经-->
+
+<div class="area clearfix public content-business channel-content" data-role="business-section" >
+
+    <!--标题区域-->
+    <!--左侧-->
+    <div class="main left">
+    <div class="title-cut" data-spm="business-nav">
+        <ul>
+            <li class=" cur" data-role="nav-tab" data-rel="main-panel" data-type="main"><a href="http://business.sohu.com" target="_blank">财经</a></li>
+            <li data-type="sub" data-role="nav-tab" data-rel="994-panel" data-id="994" data-tab-order="1" data-sync="async"><a href="http://business.sohu.com/994" target="_blank">宏观</a></li>
+            <li data-type="sub" data-role="nav-tab" data-rel="998-panel" data-id="998" data-tab-order="2" data-sync="async"><a href="http://business.sohu.com/998" target="_blank">理财</a></li>
+            <li data-type="sub" data-role="nav-tab" data-rel="997-panel" data-id="997" data-tab-order="3" data-sync="async"><a href="http://q.stock.sohu.com/" target="_blank">股票</a></li>
+        </ul>
+        <span class="link">
+             <a href="http://business.sohu.com/996" target="_blank">行业</a>
+             <a href="http://business.sohu.com/995" target="_blank">经营管理</a>
+
+        <a href="http://business.sohu.com" target="_blank">进入财经首页 &gt;</a></span>
+    </div>
+        <div>
+        <div class="main-box clearfix business-news" data-role="main-panel">
+            <!--左侧头图-->
+            <div class="main-left left" data-role="focus" data-spm="business-pics1">
+                <div class="pic-focus">
+                    <a data-param="?_f=index_businessfocus_0_0" href="//www.sohu.com/a/397962915_642250" title="马云、孙正义分手，预示资本全球『分化』？" target="_blank" ><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/18f29a41113c45b89ef183a55a5c631e.jpeg" alt="马云、孙正义分手，预示资本全球『分化』？" src=//statics.itc.cn/web/static/images/pic/preload.png>
+                    <span class="txt">马云、孙正义分手，预示资本全球『分化』？</span></a>
+                </div>
+                <div class="pic-group clearfix">
+                    <ul>
+                                <li class=" ">
+                                    <a data-param="?_f=index_businessfocus_0_1" href="//www.sohu.com/a/397952342_115362" title='曾经绑定多位影视明星，唐德影视如今要“改嫁”？停牌前股价一度涨停！' target="_blank"><img data-src="//p5.itc.cn/c_fill,w_155,h_103,g_faces/images03/20200527/38d0a2e8d2294b88a0b8176883d8b40d.jpeg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="曾经绑定多位影视明星，唐德影视如今要“改嫁”？停牌前股价一度涨停！">
+                                    <span class="txt">曾经绑定多位影视明星，唐德影视如今要“改...</span></a>
+                                </li>
+                                <li class=" end  ">
+                                    <a data-param="?_f=index_businessfocus_0_2" href="//www.sohu.com/a/397968087_100001551" title='百胜中国、喜茶否认收购瑞幸咖啡，分析称瑞幸股价暴涨为游资炒作' target="_blank"><img data-src="//p9.itc.cn/c_fill,w_155,h_103,g_faces/images03/20200527/21302ade71d44ecea25928e4bdee96e6.jpeg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="百胜中国、喜茶否认收购瑞幸咖啡，分析称瑞幸股价暴涨为游资炒作">
+                                    <span class="txt">百胜中国、喜茶否认收购瑞幸咖啡，分析称瑞...</span></a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+            <!--文章-->
+            <div class="main-right right" data-role="main-news">
+                        <div class="list16" data-spm="business-news11">
+                            <ul>
+
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_0" href="//www.sohu.com/a/397900482_162522" target="_blank" title='孟晚舟案今日迎来关键裁决，外交部：加方应纠正错误，立即释放孟晚舟'>
+                                                <strong>孟晚舟案今日迎来关键裁决，外交部：加方应纠正错误，立即释放孟晚舟</strong>
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_1" href="//www.sohu.com/a/397969844_114984" target="_blank" title='离岸人民币兑美元跌幅进一步扩大 日内一度跌300点、最低报7.1759'>
+                                                    离岸人民币兑美元跌幅进一步扩大 日内一度跌300点、最低报7.1759
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_2" href="//www.sohu.com/a/397914104_100191068" target="_blank" title='华为芯片有新进展 正说服两家巨头新设生产线！'>
+                                                    华为芯片有新进展 正说服两家巨头新设生产线！
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_3" href="//www.sohu.com/a/397930478_100191068" target="_blank" title='万科一小区近400台车被淹 业主：物业说你们可以去告'>
+                                                    万科一小区近400台车被淹 业主：物业说你们可以去告
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_4" href="//www.sohu.com/a/397951024_123753" target="_blank" title='猪肉价格连续13周下降，今年会重回“10元时代”吗？'>
+                                                    猪肉价格连续13周下降，今年会重回“10元时代”吗？
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_5" href="//www.sohu.com/a/397778029_100160903" target="_blank" title='杨燕绥：农民有社会养老保险解决吃饭问题，更需要照护失能失智的人'>
+                                                    杨燕绥：农民有社会养老保险解决吃饭问题，更需要照护失能失智的人
+
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                        <div class="list16" data-spm="business-news12">
+                            <ul>
+
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_6" href="//www.sohu.com/a/397983571_115479" target="_blank" title='钟南山：香港应学澳门这点，救经济'>
+                                                <strong>钟南山：香港应学澳门这点，救经济</strong>
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_7" href="//www.sohu.com/a/397983389_100001551" target="_blank" title='贵州百灵称旗下两款止咳药对新冠肺炎有效遭核查，去年净利润腰斩'>
+                                                    贵州百灵称旗下两款止咳药对新冠肺炎有效遭核查，去年净利润腰斩
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_8" href="//www.sohu.com/a/397956467_440500" target="_blank" title='央行家底曝光！央行到底有多少钱？'>
+                                                    央行家底曝光！央行到底有多少钱？
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_9" href="//www.sohu.com/a/397941863_100001551" target="_blank" title='分众传媒否认“配合瑞幸虚增广告费”：从瑞幸获4.7亿广告收入，已全部收回'>
+                                                    分众传媒否认“配合瑞幸虚增广告费”：从瑞幸获4.7亿广告收入，已全部收回
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_10" href="//www.sohu.com/a/397942887_100001551" target="_blank" title='越秀地产“中年危机”：“失约”的千亿目标，翻番的债务规模'>
+                                                    越秀地产“中年危机”：“失约”的千亿目标，翻番的债务规模
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_businessnews_0_11" href="//www.sohu.com/a/398005030_377096" target="_blank" title='男子“被担保”2239万！华夏银行存诸多违规 今年已收罚单超千万'>
+                                                    男子“被担保”2239万！华夏银行存诸多违规 今年已收罚单超千万
+
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+            </div>
+        </div>
+
+         <!--视频tab-->
+          <div class="main-box" style="display:none" data-role="994-panel"></div>
+
+          <div class="main-box" style="display:none" data-role="998-panel"></div>
+
+          <div class="main-box" style="display:none" data-role="997-panel"></div>
+
+        <!--广告-->
+        </div>
+    </div>
+    <!--右侧-->
+    <div class="sidebar right">
+        <!--左侧导航：largePlugin为true:大插件， area_1 可能为ad或pic ,area_2 可能为hotAuthor-->
+        <!--大插件-->
+              <div class="clear  plugin plugin-side-right" data-widget-id="business_index_component_1" style="display: block; overflow: visible;"></div>
+            <div class="godR" data-role="godR"></div>
+
+
+
+
+
+
+    </div>
+</div>
+<!--汽车-->
+    <div class="area clearfix public content-auto channel-content" data-role="auto-section">
+
+        <!--标题区域-->
+        <!--左侧-->
+        <div class="main left">
+            <div class="title-cut clearfix" data-spm="auto-nav">
+                <ul>
+                    <li class="ch cur" data-role="nav-tab" data-rel="main-panel" data-type="main"><a href="http://auto.sohu.com" target="_blank">汽车</a></li>
+                            <li data-type="auto-t-1" data-role="nav-tab" data-rel="auto-t-1-panel" data-tab-order="1" data-sync="sync"><a href=" http://db.auto.sohu.com/home/" target="_blank">买车</a></li>
+                            <li data-type="auto-t-2" data-role="nav-tab" data-rel="auto-t-2-panel" data-tab-order="2" data-sync="sync"><a href="http://00.auto.sohu.com/" target="_blank">车贷</a></li>
+                            <li data-type="auto-t-3" data-role="nav-tab" data-rel="auto-t-3-panel" data-tab-order="3" data-sync="sync"><a href=" http://2sc.sohu.com" target="_blank">二手车</a></li>
+                </ul>
+                <span class="link">
+                <a href="//www.sohu.com/c/18" target="_blank">自媒体</a>
+                <a href="http://db.auto.sohu.com/home/" target="_blank">车型大全</a>
+                <a href="http://jiangjia.auto.sohu.com/" target="_blank">降价</a>
+                <a href="http://dealer.auto.sohu.com/map/" target="_blank">经销商</a>
+
+            <a href="http://auto.sohu.com" target="_blank">进入汽车首页 &gt;</a></span>
+            </div>
+            <div>
+                <div class="main-box clearfix auto-news" data-role="main-panel">
+                    <!--左侧头图-->
+                        <div class="main-left left" data-role="focus" data-spm="auto-pics">
+                            <div class="pic-focus">
+                                <!--这个关于url的判断是因为从OS后台传入的链接有相对路径 有绝对路径-->
+                                <a data-param="?_f=index_autofocus_0_0" href="https://www.sohu.com/a/397732844_430526"
+                                    title="上汽大众威然即将上市 能否&quot;引爆&quot;市场?" target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_220,q_70/c_cut,x_0,y_0,w_1200,h_800/os/news/93e17d9b759cb4f25cadcf12b50a52fd.jpg" alt="上汽大众威然即将上市 能否&quot;引爆&quot;市场?" src=//statics.itc.cn/web/static/images/pic/preload.png>
+                                    <span class="txt">上汽大众威然即将上市 能否&quot;引爆&quot;市场?</span></a>
+                            </div>
+                            <div class="pic-group clearfix">
+                                <ul>
+                                            <li class=" ">
+                                                <a data-param="?_f=index_autofocus_0_1" href="https://www.sohu.com/a/397487659_121589"
+                                                    title='这台&quot;牛蛙&quot;不一般 试保时捷911 Carrera 4S' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_169,y_0,w_1620,h_1080/os/news/587d49fc28844b8b802005bbb7806b6e.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="这台&quot;牛蛙&quot;不一般 试保时捷911 Carrera 4S">
+                                                    <span class="txt">这台&quot;牛蛙&quot;不一般 试保时捷911 Carrera 4S</span></a>
+                                            </li>
+                                            <li class=" end  ">
+                                                <a data-param="?_f=index_autofocus_0_2" href="https://www.sohu.com/a/397794298_111151"
+                                                    title='即将消失的V12 最强7系有可能被终结?' target="_blank"><img data-src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103,q_70/c_cut,x_43,y_0,w_359,h_239/os/news/afae5cfce578889f5ff82fa321c84e07.jpg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="即将消失的V12 最强7系有可能被终结?">
+                                                    <span class="txt">即将消失的V12 最强7系有可能被终结?</span></a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    <!--文章-->
+                        <div class="main-right right" data-role="main-news">
+                                    <div class="list16" data-spm="auto-news11">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_0_0" href="http://auto.sohu.com/#utab_model" target="_blank" title='大众全新MPV上市前景预测 北美口味会&quot;水土不服&quot;吗?'>
+                                                    <strong>大众全新MPV上市前景预测 北美口味会&quot;水土不服&quot;吗?</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_1_0" href="https://www.sohu.com/a/397800575_121589" target="_blank" title='国产在即的新丰田Sienna有啥亮点'>
+                                                    国产在即的新丰田Sienna有啥亮点
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_1_1" href="https://www.sohu.com/a/397992322_383324" target="_blank" title='Model S/X进口版降2.9万'>
+                                                            Model S/X进口版降2.9万
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_2_0" href="https://www.sohu.com/a/397873483_430526" target="_blank" title='雷克萨斯LS为何逐渐边缘化?'>
+                                                    雷克萨斯LS为何逐渐边缘化?
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_2_1" href="https://www.sohu.com/a/397865844_121589" target="_blank" title='从奥迪Q3 Sportback聊轿跑SUV'>
+                                                            从奥迪Q3 Sportback聊轿跑SUV
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_3_0" href="https://www.sohu.com/a/397953904_430526" target="_blank" title='全新一代讴歌TLX官图泄露'>
+                                                    全新一代讴歌TLX官图泄露
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_3_1" href="https://www.sohu.com/a/397962776_430526" target="_blank" title='新款比亚迪F3超值版官图曝光'>
+                                                            新款比亚迪F3超值版官图曝光
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_4_0" href="https://www.sohu.com/a/397966603_430526" target="_blank" title='长安福特全新探险者下线'>
+                                                    长安福特全新探险者下线
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_4_1" href="https://www.sohu.com/a/397955176_430526" target="_blank" title='标配48V轻混 新款宝马5系发布'>
+                                                            标配48V轻混 新款宝马5系发布
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_5_0" href="https://www.sohu.com/a/397845122_455835" target="_blank" title='探索蔚来NIO OS 2.6.1系统'>
+                                                    探索蔚来NIO OS 2.6.1系统
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_5_1" href="https://www.sohu.com/a/397954551_100256540" target="_blank" title='珠峰高程测量登山队登顶!'>
+                                                            珠峰高程测量登山队登顶!
+                                                        </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list16" data-spm="auto-news12">
+                                        <ul>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_6_0" href="https://tv.sohu.com/s/m/special/qfact/index.html?roomId=48143671&amp;sf_pro=1&amp;sf_atype=apps&amp;sf_mtype=3&amp;sf_cv=7.9.7&amp;channeled=1211160001" target="_blank" title='【直播】这里居然比车展还要开眼界 探秘京城最豪地库'>
+                                                    <strong>【直播】这里居然比车展还要开眼界 探秘京城最豪地库</strong>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_7_0" href="http://zhuomuniao.sohu.com/questionDetail.html?id=2swev9gD3I6G2Dy5AqIGv5Osp" target="_blank" title='捷豹I-PACE刹车感应线损坏 4S拒绝质保'>
+                                                    捷豹I-PACE刹车感应线损坏 4S拒绝质保
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_7_1" href="https://www.sohu.com/a/397911047_250147" target="_blank" title='广汽三菱销量乏力'>
+                                                            广汽三菱销量乏力
+                                                        </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_8_0" href="https://www.sohu.com/a/397948193_157493" target="_blank" title='铃木退出中国或是长安密谋已久'>
+                                                    铃木退出中国或是长安密谋已久
+                                                </a>
+                                                        <em class="line-mg">|</em>
+                                                        <a data-param="?_f=index_autonews_0_8_1" href="https://www.sohu.com/a/397984807_383324" target="_blank" title='大众或收购江淮汽车50%股份'>
+                                                            大众或收购江淮汽车50%股份
+                                                        </a>
+                                            </li>
+                                                    <div data-role="auto-index-component2">
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_9_0" href="https://www.sohu.com/a/393595632_348030" target="_blank" title='补贴30万这道坎，是对特斯拉的“狙击”还是“助攻”？'>
+                                                    补贴30万这道坎，是对特斯拉的“狙击”还是“助攻”？
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_10_0" href="http://db.auto.sohu.com/photo/type/1.shtml?showfoucs=1" target="_blank" title='爆款车高清实拍:大众帕萨特/福特探险者/奥迪Q3等'>
+                                                    爆款车高清实拍:大众帕萨特/福特探险者/奥迪Q3等
+                                                </a>
+                                            </li>
+                                                    </div>
+                                            <li>
+                                                <a data-param="?_f=index_autonews_0_11_0" href="http://db.auto.sohu.com/photo/" target="_blank" title='热门车型高清实拍:威兰达/凯迪拉克CT4/红旗H7有槽点吗'>
+                                                    热门车型高清实拍:威兰达/凯迪拉克CT4/红旗H7有槽点吗
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                        </div>
+                </div>
+
+                <!--视频tab-->
+                                    <div class="main-box" style="display:none" data-role="auto-t-1-panel"></div>
+                                    <div class="main-box" style="display:none" data-role="auto-t-2-panel"></div>
+                                    <div class="main-box" style="display:none" data-role="auto-t-3-panel"></div>
+                    <!--广告-->
+            </div>
+        </div>
+        <!--右侧-->
+        <div class="sidebar right">
+            <!--左侧导航：largePlugin为true:大插件， area_1 可能为ad或pic ,area_2 可能为hotAuthor-->
+            <!--大插件-->
+              <div class="clear  plugin plugin-side-right" data-widget-id="auto_index_component_1" style="display: block; overflow: visible;"></div>
+            <!--娱乐右侧插件-->
+
+
+        </div>
+    </div>
+<!--房产-->
+ <div class="god-wrapper clearfix area">
+        <div class="god-main" data-role="god_column"></div>
+</div>
+
+<div class="area clearfix public content-focus" data-role="focus-section" style="display:none"></div>
+
+<!--科技-->
+<div class="area clearfix public content-it channel-content" data-role="it-section" >
+
+    <!--标题区域-->
+    <!--左侧-->
+    <div class="main left">
+    <div class="title-cut" data-spm="it-nav">
+        <ul>
+            <li class=" cur" data-role="nav-tab" data-rel="main-panel" data-type="main"><a href="http://it.sohu.com" target="_blank">科技</a></li>
+        </ul>
+        <span class="link">
+             <a href="http://it.sohu.com/911" target="_blank">互联网</a>
+             <a href="http://it.sohu.com/934" target="_blank">通讯</a>
+             <a href="http://it.sohu.com/882" target="_blank">智能硬件</a>
+             <a href="http://it.sohu.com/913" target="_blank">生活服务</a>
+             <a href="http://it.sohu.com/881" target="_blank">创业投资</a>
+             <a href="http://it.sohu.com/880" target="_blank">科学</a>
+             <a href="http://it.sohu.com/936" target="_blank">数码</a>
+
+        <a href="http://it.sohu.com" target="_blank">进入科技首页 &gt;</a></span>
+    </div>
+        <div>
+        <div class="main-box clearfix it-news" data-role="main-panel">
+            <!--左侧头图-->
+            <div class="main-left left" data-role="focus" data-spm="it-pics1">
+                <div class="pic-focus">
+                    <a data-param="?_f=index_itfocus_0_0" href="//www.sohu.com/a/397883330_115207" title="马斯克：别骂我了，吃点药吧各位！" target="_blank" ><img data-src="//p7.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/18c08fd4dfbb43d6b89e3adbfae615de.jpeg" alt="马斯克：别骂我了，吃点药吧各位！" src=//statics.itc.cn/web/static/images/pic/preload.png>
+                    <span class="txt">马斯克：别骂我了，吃点药吧各位！</span></a>
+                </div>
+                <div class="pic-group clearfix">
+                    <ul>
+                                <li class=" ">
+                                    <a data-param="?_f=index_itfocus_0_1" href="//www.sohu.com/a/397861593_115207" title='微信该杀Wetool吗？' target="_blank"><img data-src="//p8.itc.cn/c_fill,w_155,h_103,g_faces/images03/20200527/710599453f084ab2b9c87f1b6793e677.jpeg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="微信该杀Wetool吗？">
+                                    <span class="txt">微信该杀Wetool吗？</span></a>
+                                </li>
+                                <li class=" end  ">
+                                    <a data-param="?_f=index_itfocus_0_2" href="//www.sohu.com/a/397918462_128469" title='为华为打造无美系设备的产线，台积电三星能做到吗？' target="_blank"><img data-src="//p5.itc.cn/c_fill,w_155,h_103,g_faces/images03/20200527/acc3055bccfa4f35bd11a193d14ca58e.jpeg" src=//statics.itc.cn/web/static/images/pic/preload.png alt="为华为打造无美系设备的产线，台积电三星能做到吗？">
+                                    <span class="txt">为华为打造无美系设备的产线，台积电三星能...</span></a>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+            <!--文章-->
+            <div class="main-right right" data-role="main-news">
+                        <div class="list16" data-spm="it-news11">
+                            <ul>
+
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_0" href="//www.sohu.com/a/397769495_120007039" target="_blank" title=' 14nm火热量产！中芯国际：除了光刻机，别的设备都能解决'>
+                                                <strong> 14nm火热量产！中芯国际：除了光刻机，别的设备都能解决</strong>
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_1" href="//www.sohu.com/a/397907658_162522" target="_blank" title='推特首次“出手”！给特朗普推文贴“事实核查”标签'>
+                                                    推特首次“出手”！给特朗普推文贴“事实核查”标签
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_2" href="//www.sohu.com/a/397947432_649045" target="_blank" title='瑞幸股价一夜反弹53%，谁在刀口疯狂舔血？'>
+                                                    瑞幸股价一夜反弹53%，谁在刀口疯狂舔血？
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_3" href="//www.sohu.com/a/397935500_466942" target="_blank" title='Facebook股东大会将在明天举行，扎克伯格将被股东逼迫卸任董事长'>
+                                                    Facebook股东大会将在明天举行，扎克伯格将被股东逼迫卸任董事长
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_4" href="//www.sohu.com/a/397820364_116237" target="_blank" title='把微信出租一天能赚100元？@所有人，微信官方对这类骗局发重要提醒'>
+                                                    把微信出租一天能赚100元？@所有人，微信官方对这类骗局发重要提醒
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_5" href="//www.sohu.com/a/397817723_114986" target="_blank" title='又有一家药企要分拆疫苗上市！这次是长春高新'>
+                                                    又有一家药企要分拆疫苗上市！这次是长春高新
+
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                        <div class="list16" data-spm="it-news12">
+                            <ul>
+
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_6" href="//www.sohu.com/a/397862191_115300" target="_blank" title='苹果又搞了个“轰动全球”的重磅新品！售价或只要3500多，还有乔布斯限定款……'>
+                                                <strong>苹果又搞了个“轰动全球”的重磅新品！售价或只要3500多，还有乔布斯限定款……</strong>
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_7" href="//www.sohu.com/a/397943098_115565" target="_blank" title='卢伟冰：Redmi 10X把5G售价拉到1500元档，将推动5G手机普及'>
+                                                    卢伟冰：Redmi 10X把5G售价拉到1500元档，将推动5G手机普及
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_8" href="//www.sohu.com/a/397843759_115207" target="_blank" title='比亚迪手撕宁德时代，所有电动车一起倒霉'>
+                                                    比亚迪手撕宁德时代，所有电动车一起倒霉
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_9" href="//www.sohu.com/a/397830138_120092405" target="_blank" title='懂王力推的神药不灵了！更猛的药是财政赤字货币化'>
+                                                    懂王力推的神药不灵了！更猛的药是财政赤字货币化
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_10" href="//www.sohu.com/a/397888963_120091004" target="_blank" title='这个品牌手机系统崩溃，真与闰月有关！官方支招'>
+                                                    这个品牌手机系统崩溃，真与闰月有关！官方支招
+
+                                        </a>
+                                    </li>
+                                    <li
+                                    >
+                                        <a data-param="?_f=index_itnews_0_11" href="//www.sohu.com/a/398001362_120106607" target="_blank" title='特斯拉又割韭菜了，不过这次是Model S/X降价2.9万元'>
+                                                    特斯拉又割韭菜了，不过这次是Model S/X降价2.9万元
+
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+            </div>
+        </div>
+
+         <!--视频tab-->
+        <!--广告-->
+        </div>
+    </div>
+    <!--右侧-->
+    <div class="sidebar right">
+        <!--左侧导航：largePlugin为true:大插件， area_1 可能为ad或pic ,area_2 可能为hotAuthor-->
+        <!--大插件-->
+                <div class="extend-mod bordR">
+                    <!--<div class="titleR"><span class="tt">推广</span></div>-->
+                    <div data-role="god_promotion"></div>
+                </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="area clearfix public content-other">
+    <div class="main left">
+    <div class="god-main god-main-top" data-role="god_column"></div>
+
+        <div class="main-box main-boxA clearfix">
+            <!--时尚-->
+
+    <div class="main-left fashion-news left" style="">
+        <div class="title-cut" data-spm="fashion-nav">
+
+
+
+            <span class="tt"><a href="http://fashion.sohu.com/ " target="_blank">时尚</a></span>
+
+            <span class="link">
+             <a href=" http://fashion.sohu.com/1045" target="_blank">时装</a>
+             <a href="http://fashion.sohu.com/1062" target="_blank">人物</a>
+             <a href="http://fashion.sohu.com/1057 " target="_blank">奢品</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="fashion-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_fashionfocus_0" href="//www.sohu.com/a/397960325_142807" target="_blank" title='倪妮、刘诗诗这对CP，比得过32年前的钟楚红、张曼玉吗？'><img data-src="//p1.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/7a9e4148becf4889b78f66e4f7edf670.gif"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="倪妮、刘诗诗这对CP，比得过32年前的钟楚红、张曼玉吗？">
+                        <span class="txt">倪妮、刘诗诗这对CP，比得过32年前的钟楚红、张曼玉吗？</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_fashionfocus_1" href="//www.sohu.com/a/397856240_99955432" target="_blank" title='“木头美人”鞠婧祎的诞生，到底该赖谁？'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/9f8290497eb2499c940e7a82b10cbfbf.gif"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="“木头美人”鞠婧祎的诞生，到底该赖谁？">
+                        <span class="txt">“木头美人”鞠婧祎的诞生，到底该赖谁？</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="fashion-news">
+            <li>
+                <a data-param="?_f=index_fashionnews_0" href="//www.sohu.com/a/397953626_100160630" target="_blank" title='你明明长得很好看，为什么拍照总是很丑？！'>
+                    <strong>你明明长得很好看，为什么拍照总是很丑？！</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_1" href="//www.sohu.com/a/397873554_739385" target="_blank" title='夏日逼格照，必须有这个！'>
+                     夏日逼格照，必须有这个！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_2" href="//www.sohu.com/a/397872581_547862" target="_blank" title='这种戏，流量明星们一演就露馅'>
+                     这种戏，流量明星们一演就露馅
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_3" href="//www.sohu.com/a/397878620_110497" target="_blank" title='看完这些美图，好想买裙子啊啊啊！'>
+                     看完这些美图，好想买裙子啊啊啊！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_4" href="//www.sohu.com/a/397860137_568394" target="_blank" title='你不必生而美丽，也能充满魅力。'>
+                     你不必生而美丽，也能充满魅力。
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_5" href="//www.sohu.com/a/397831025_500086" target="_blank" title='夏日穿维希格纹出街，时髦又好看，秒杀众人！'>
+                     夏日穿维希格纹出街，时髦又好看，秒杀众人！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_fashionnews_6" href="//www.sohu.com/a/397823522_559283" target="_blank" title='女明星的旗袍杀，谁是你的NO.1?'>
+                     女明星的旗袍杀，谁是你的NO.1?
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+            <!--教育-->
+
+    <div class="main-left learning-news right" style="">
+        <div class="title-cut" data-spm="learning-nav">
+
+
+
+            <span class="tt"><a href=" http://learning.sohu.com/" target="_blank">教育</a></span>
+
+            <span class="link">
+             <a href="http://learning.sohu.com/16" target="_blank">高考</a>
+             <a href="http://learning.sohu.com/18" target="_blank">留学</a>
+             <a href="http://learning.sohu.com/1435" target="_blank">家长帮</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="learning-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_edufocus_0" href="//www.sohu.com/a/397995032_260616" target="_blank" title='“张爸”说话为何大家爱听？王苏委员：说话的艺术要从小抓起'><img data-src="//p6.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/127cb845b12a4ae9a6d14e8271bd75a9.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="“张爸”说话为何大家爱听？王苏委员：说话的艺术要从小抓起">
+                        <span class="txt">“张爸”说话为何大家爱听？王苏委员：说话的艺术要从小...</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_edufocus_1" href="//www.sohu.com/a/397810343_162758" target="_blank" title='真正的学霸宿舍 保研、考研，宿舍6女生全“上岸”！'><img data-src="//p9.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/e2e7d3fab77b4a64a9ac8e10345b6608.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="真正的学霸宿舍 保研、考研，宿舍6女生全“上岸”！">
+                        <span class="txt">真正的学霸宿舍 保研、考研，宿舍6女生全“上岸”！</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="learning-news">
+            <li>
+                <a data-param="?_f=index_edunews_0" href="//www.sohu.com/a/397901980_162522" target="_blank" title='中国留学生行使自己的权利后，这名反华记者怒了'>
+                    <strong>中国留学生行使自己的权利后，这名反华记者怒了</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_1" href="//www.sohu.com/a/397972874_465270" target="_blank" title='教育部官宣！全部取消！'>
+                     教育部官宣！全部取消！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_2" href="//www.sohu.com/a/397857563_100246825" target="_blank" title='这个最热门的文科专业，越来越不被看好了'>
+                     这个最热门的文科专业，越来越不被看好了
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_3" href="//www.sohu.com/a/397928738_116237" target="_blank" title='32岁家政阿姨硕士学历，懂英语法语曾赴海外工作，是不是真的？'>
+                     32岁家政阿姨硕士学历，懂英语法语曾赴海外工作，是不是真的？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_4" href="//www.sohu.com/a/397989838_255783" target="_blank" title='日本复课后学校频出抗疫奇招：戴透明面罩 纸箱中上课'>
+                     日本复课后学校频出抗疫奇招：戴透明面罩 纸箱中上课
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_5" href="//www.sohu.com/a/397983495_162758" target="_blank" title='韩国大邱再现高三学生感染新冠 ，紧急中止返校转为线上教学'>
+                     韩国大邱再现高三学生感染新冠 ，紧急中止返校转为线上教学
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_edunews_6" href="//www.sohu.com/a/397971118_260616" target="_blank" title='代表委员聚焦高考：有代表建议调整高考语文、英语分数权重'>
+                     代表委员聚焦高考：有代表建议调整高考语文、英语分数权重
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        </div>
+        <div class="main-box main-boxB clearfix">
+                     
+            
+
+    <div class="main-left travel-news left" style="">
+        <div class="title-cut" data-spm="travel-nav">
+
+
+
+            <span class="tt"><a href="http://travel.sohu.com/ " target="_blank">旅游</a></span>
+
+            <span class="link">
+             <a href=" http://travel.sohu.com/1446" target="_blank">国内游</a>
+             <a href="http://travel.sohu.com/1447 " target="_blank">境外游</a>
+             <a href=" http://travel.sohu.com/1448" target="_blank">攻略家</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="travel-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_travelfocus_0" href="//www.sohu.com/a/397860766_120093003" target="_blank" title='有了夜床服务这项完美技能之后，酒店的格调高上天'><img data-src="//p1.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/3656353aa9054be8ada0e0e79e202843.gif"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="有了夜床服务这项完美技能之后，酒店的格调高上天">
+                        <span class="txt">有了夜床服务这项完美技能之后，酒店的格调高上天</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_travelfocus_1" href="//www.sohu.com/a/397852180_395807" target="_blank" title='去丹麦，看个鸟啊！'><img data-src="//p3.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/bbc760edcb4d4402bc18aaad0e20f15b.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="去丹麦，看个鸟啊！">
+                        <span class="txt">去丹麦，看个鸟啊！</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="travel-news">
+            <li>
+                <a data-param="?_f=index_travelnews_0" href="//www.sohu.com/a/397896070_113213" target="_blank" title='西藏典角村，前方距印度碉堡仅600米'>
+                    <strong>西藏典角村，前方距印度碉堡仅600米</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_1" href="//www.sohu.com/a/397876163_115112" target="_blank" title='疫情放过了野生动物？你误会大了'>
+                     疫情放过了野生动物？你误会大了
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_2" href="//www.sohu.com/a/397846610_119858" target="_blank" title='缅甸深山残酷习俗，自毁容貌以图平安'>
+                     缅甸深山残酷习俗，自毁容貌以图平安
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_3" href="//www.sohu.com/a/397695790_119756" target="_blank" title='这届游客在国内打卡了全世界！'>
+                     这届游客在国内打卡了全世界！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_4" href="//www.sohu.com/a/397900672_119112" target="_blank" title='在男性“统治”的南极，这个中国姑娘真给女人长脸！'>
+                     在男性“统治”的南极，这个中国姑娘真给女人长脸！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_5" href="//www.sohu.com/a/397781020_260616" target="_blank" title='故宫恢复开放了，亲测最佳进宫路线'>
+                     故宫恢复开放了，亲测最佳进宫路线
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_travelnews_6" href="//www.sohu.com/a/397998385_154718" target="_blank" title='清迈古城内的这些小店，是当地原创品牌，充满了泰国的生活艺术感'>
+                     清迈古城内的这些小店，是当地原创品牌，充满了泰国的生活艺术感
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left chihe-news right" style="">
+        <div class="title-cut" data-spm="chihe-nav">
+
+
+
+            <span class="tt"><a href=" http://chihe.sohu.com/" target="_blank">美食</a></span>
+
+            <span class="link">
+             <a href=" http://chihe.sohu.com/1441" target="_blank">走街串巷</a>
+             <a href=" http://chihe.sohu.com/1443" target="_blank">烹饪冲调</a>
+             <a href=" http://chihe.sohu.com/1445" target="_blank">吃吃喝喝</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="chihe-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_chihefocus_0" href="//www.sohu.com/a/397880804_128742" target="_blank" title='比肥胖更可怕的，竟然是我们每天都会吃的糖！'><img data-src="//p7.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/77ce96872b0f48109e1cf0fcd87cbe3a.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="比肥胖更可怕的，竟然是我们每天都会吃的糖！">
+                        <span class="txt">比肥胖更可怕的，竟然是我们每天都会吃的糖！</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_chihefocus_1" href="//www.sohu.com/a/397864516_120093003" target="_blank" title='一天吃5顿？为什么天气越热，海南人吃得越多？（胖子慎点）'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/d5d910f1b02a443dbe5a5ea124bd4e02.gif"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="一天吃5顿？为什么天气越热，海南人吃得越多？（胖子慎点）">
+                        <span class="txt">一天吃5顿？为什么天气越热，海南人吃得越多？（胖子...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="chihe-news">
+            <li>
+                <a data-param="?_f=index_chihenews_0" href="//www.sohu.com/a/397865540_120093003" target="_blank" title='蘑菇一冒头，再横的东北小笨鸡也发愁'>
+                    <strong>蘑菇一冒头，再横的东北小笨鸡也发愁</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_1" href="//www.sohu.com/a/397830195_100024718" target="_blank" title='日本便当……不说了，流口水了'>
+                     日本便当……不说了，流口水了
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_2" href="//www.sohu.com/a/397866814_220034" target="_blank" title='除了网红白花蛇草水，山东还有多少朋克零食？'>
+                     除了网红白花蛇草水，山东还有多少朋克零食？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_3" href="//www.sohu.com/a/397864324_119097" target="_blank" title='柯尔鸭：我们这届鸭子，已经不是道菜了！'>
+                     柯尔鸭：我们这届鸭子，已经不是道菜了！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_4" href="//www.sohu.com/a/397872949_113612" target="_blank" title='打开淘宝，在线吃掉成都！'>
+                     打开淘宝，在线吃掉成都！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_5" href="//www.sohu.com/a/397861248_601319" target="_blank" title='你知道吗？每吃一块肉，亚马逊就会冒出一点烟'>
+                     你知道吗？每吃一块肉，亚马逊就会冒出一点烟
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_chihenews_6" href="//www.sohu.com/a/398003479_162758" target="_blank" title='女人不想老太快，4类食物要少吃，3种美容抗衰老的食物可多吃'>
+                     女人不想老太快，4类食物要少吃，3种美容抗衰老的食物可多吃
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        </div>
+        <div class="main-box main-boxC clearfix">
+
+    <div class="main-left health-news left" style="">
+        <div class="title-cut" data-spm="health-nav">
+
+
+
+            <span class="tt"><a href=" http://health.sohu.com" target="_blank">健康</a></span>
+
+            <span class="link">
+             <a href="//mp.sohu.com/profile?xpt=aGVhbHRoLXNvaHVAc29odS5jb20=" target="_blank">生命科学</a>
+             <a href="//health.sohu.com/category/doctor" target="_blank">搜狐名医</a>
+             <a href="//health.sohu.com/category/medhelp" target="_blank">搜狐医药</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="health-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_healthfocus_0" href="//www.sohu.com/a/397965709_104952" target="_blank" title='英国首相：新冠肺炎会导致视力下降'><img data-src="//p7.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/3a464ff10e8e45f48740f00057bd8b16.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="英国首相：新冠肺炎会导致视力下降">
+                        <span class="txt">英国首相：新冠肺炎会导致视力下降</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_healthfocus_1" href="//www.sohu.com/a/397809331_359980" target="_blank" title='甲状腺周 | 王建华：甲减终身服药，伤肝伤肾吗？'><img data-src="//p0.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/d465dfae31fb4c49a916180b2563e678.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="甲状腺周 | 王建华：甲减终身服药，伤肝伤肾吗？">
+                        <span class="txt">甲状腺周 | 王建华：甲减终身服药，伤肝伤肾吗？</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="health-news">
+            <li>
+                <a data-param="?_f=index_healthnews_0" href="//www.sohu.com/a/397807925_359980" target="_blank" title='甲状腺周 | 高再荣：甲状腺激素能用来减肥吗？'>
+                    <strong>甲状腺周 | 高再荣：甲状腺激素能用来减肥吗？</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_1" href="//www.sohu.com/a/397817851_359980" target="_blank" title='赌王何鸿燊98岁逝世，他的长寿秘诀是什么？'>
+                     赌王何鸿燊98岁逝世，他的长寿秘诀是什么？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_2" href="//www.sohu.com/a/397188991_359980" target="_blank" title='全民营养周 | 什么样的早餐最健康？营养专家：必须要有这三类食物'>
+                     全民营养周 | 什么样的早餐最健康？营养专家：必须要有这三类食物
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_3" href="//www.sohu.com/a/397964355_104952" target="_blank" title='Nature：中科院团队发现新冠病毒中和抗体，猴子实验显示良好治疗预防效果'>
+                     Nature：中科院团队发现新冠病毒中和抗体，猴子实验显示良好治疗预防效果
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_4" href="//www.sohu.com/a/397803280_104952" target="_blank" title='搜狐医药 | 牛津大学专家：牛津新冠疫苗研发成功率由80%降至约50%'>
+                     搜狐医药 | 牛津大学专家：牛津新冠疫苗研发成功率由80%降至约50%
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_5" href="//www.sohu.com/a/397797389_359980" target="_blank" title='狐大医 | 输液好得快、通血管？输液的10个真相，一次说清'>
+                     狐大医 | 输液好得快、通血管？输液的10个真相，一次说清
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_healthnews_6" href="//www.sohu.com/a/397816297_359980" target="_blank" title='狐大医 | 老年认知障碍患者如何扛过“新冠肺炎”？'>
+                     狐大医 | 老年认知障碍患者如何扛过“新冠肺炎”？
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left baobao-news right" style="">
+        <div class="title-cut" data-spm="baobao-nav">
+
+
+
+            <span class="tt"><a href=" http://baobao.sohu.com/" target="_blank">母婴</a></span>
+
+            <span class="link">
+             <a href=" http://baobao.sohu.com/1477" target="_blank">早教</a>
+             <a href=" http://baobao.sohu.com/1475" target="_blank">科学哺育</a>
+             <a href="http://baobao.sohu.com/1474" target="_blank">婴幼健康</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="baobao-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_baobaofocus_0" href="//www.sohu.com/a/397931026_105069" target="_blank" title='《儿童零食通用要求》6月15日起实施，儿童零食要有专用标准了？'><img data-src="//p5.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/e6a41affdc194e36bb077a884b0a6d53.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="《儿童零食通用要求》6月15日起实施，儿童零食要有专用标准了？">
+                        <span class="txt">《儿童零食通用要求》6月15日起实施，儿童零食要有专用...</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_baobaofocus_1" href="//www.sohu.com/a/397708880_99951135" target="_blank" title='3分钟来回横穿马路13次！熊孩子“终于”被撞了，网友：家长呢？'><img data-src="//p7.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200526/846dce3843574f67822d275a8dbeaa74.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="3分钟来回横穿马路13次！熊孩子“终于”被撞了，网友：家长呢？">
+                        <span class="txt">3分钟来回横穿马路13次！熊孩子“终于”被撞了，网友：...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="baobao-news">
+            <li>
+                <a data-param="?_f=index_baobaonews_0" href="//www.sohu.com/a/397947674_119350" target="_blank" title='为人父母，要不要“持证上岗”？'>
+                    <strong>为人父母，要不要“持证上岗”？</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_1" href="//www.sohu.com/a/397861596_100035282" target="_blank" title='分娩“开十指”到底是多大？一张图就懂，这些顺产知识请提前了解'>
+                     分娩“开十指”到底是多大？一张图就懂，这些顺产知识请提前了解
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_2" href="//www.sohu.com/a/397895781_142574" target="_blank" title='中国式PUA家庭，还要毁掉多少人'>
+                     中国式PUA家庭，还要毁掉多少人
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_3" href="//www.sohu.com/a/397947680_105069" target="_blank" title='全国人大代表凌锋：建议将儿童防性侵纳入义务教育课'>
+                     全国人大代表凌锋：建议将儿童防性侵纳入义务教育课
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_4" href="//www.sohu.com/a/397921182_100106497" target="_blank" title='妈妈感冒不能喂母乳？注意：能不能喂关键看这点，宝妈们需了解'>
+                     妈妈感冒不能喂母乳？注意：能不能喂关键看这点，宝妈们需了解
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_5" href="//www.sohu.com/a/397767116_100169892" target="_blank" title='父母争吵喋喋不休，孩子：我到底哪里做错了？求求你们别吵了！'>
+                     父母争吵喋喋不休，孩子：我到底哪里做错了？求求你们别吵了！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_baobaonews_6" href="//www.sohu.com/a/398000265_119038" target="_blank" title='赵金云委员：每天刷手机的家长培养不出爱读书的娃'>
+                     赵金云委员：每天刷手机的家长培养不出爱读书的娃
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        
+        </div>
+        <div class="god-main" data-role="god_column"></div>
+        <div class="main-box main-boxD clearfix">
+
+    <div class="main-left history-news left" style="">
+        <div class="title-cut" data-spm="history-nav">
+
+
+
+            <span class="tt"><a href="http://history.sohu.com/" target="_blank">历史</a></span>
+
+            <span class="link">
+             <a href=" http://history.sohu.com/1338" target="_blank">秦汉三国</a>
+             <a href=" http://history.sohu.com/1423" target="_blank">两晋隋唐</a>
+             <a href="http://history.sohu.com/1341 " target="_blank">两宋元明</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="history-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_historyfocus_0" href="//www.sohu.com/a/393906930_557768" target="_blank" title='武则天为什么创造了一个前所未有的新汉字'><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_190,h_100,g_faces,q_70/images/20200509/16c43673829d480b8a11ec5b6461958c.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="武则天为什么创造了一个前所未有的新汉字">
+                        <span class="txt">武则天为什么创造了一个前所未有的新汉字</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_historyfocus_1" href="//www.sohu.com/a/397853270_126037" target="_blank" title='清末社会生活老照片：长江渔民训练水獭捕鱼，快要消失的采耳行当'><img data-src="//p9.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200526/b73a35b68fae408990782a4fbd907b65.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="清末社会生活老照片：长江渔民训练水獭捕鱼，快要消失的采耳行当">
+                        <span class="txt">清末社会生活老照片：长江渔民训练水獭捕鱼，快要消失...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="history-news">
+            <li>
+                <a data-param="?_f=index_historynews_0" href="//www.sohu.com/a/397962151_120003965" target="_blank" title='历史上的今天 | 近代著名诗人、语言学家刘半农诞辰'>
+                    <strong>历史上的今天 | 近代著名诗人、语言学家刘半农诞辰</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_1" href="//www.sohu.com/a/397941938_580483" target="_blank" title='《水浒传》中，谁的学历最高？谁最有文化？有一人是武状元'>
+                     《水浒传》中，谁的学历最高？谁最有文化？有一人是武状元
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_2" href="//www.sohu.com/a/393906930_557768" target="_blank" title='武则天为什么创造了一个前所未有的新汉字'>
+                     武则天为什么创造了一个前所未有的新汉字
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_3" href="//www.sohu.com/a/397613365_120371443" target="_blank" title='赵云为何不被重用？魏延有反骨却被重用！'>
+                     赵云为何不被重用？魏延有反骨却被重用！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_4" href="//www.sohu.com/a/397834745_560545" target="_blank" title='化妆技术哪家强？为何魏晋时代的男性都尤其喜欢打扮？'>
+                     化妆技术哪家强？为何魏晋时代的男性都尤其喜欢打扮？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_5" href="//www.sohu.com/a/397912917_377089" target="_blank" title='诸吕之乱：天真的吕家人，冷酷的功臣系'>
+                     诸吕之乱：天真的吕家人，冷酷的功臣系
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_historynews_6" href="//www.sohu.com/a/397975062_100047440" target="_blank" title='魏延明明比姜维优秀，为何诸葛亮偏选择姜维接班，挑起蜀汉大任？'>
+                     魏延明明比姜维优秀，为何诸葛亮偏选择姜维接班，挑起蜀汉大任？
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left cul-news right" style="">
+        <div class="title-cut" data-spm="cul-nav">
+
+
+
+            <span class="tt"><a href=" http://cul.sohu.com/" target="_blank">文化</a></span>
+
+            <span class="link">
+             <a href=" http://cul.sohu.com/1401" target="_blank">人物</a>
+             <a href="http://cul.sohu.com/1350 " target="_blank">读书</a>
+             <a href=" http://cul.sohu.com/1351" target="_blank">艺术</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="cul-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_culfocus_0" href="//www.sohu.com/a/397979092_120318326" target="_blank" title='女画家自画人体，被网友吐槽，回应：你们根本不懂艺术更不懂我！'><img data-src="//p6.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/d2906793d70a486780fec46bca84e28a.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="女画家自画人体，被网友吐槽，回应：你们根本不懂艺术更不懂我！">
+                        <span class="txt">女画家自画人体，被网友吐槽，回应：你们根本不懂艺术...</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_culfocus_1" href="//www.sohu.com/a/397982878_260616" target="_blank" title='四十年前，这部恐怖经典被影评人一致唱衰'><img data-src="//p4.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/d043d7b30b6146f695ea017e0ee01921.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="四十年前，这部恐怖经典被影评人一致唱衰">
+                        <span class="txt">四十年前，这部恐怖经典被影评人一致唱衰</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="cul-news">
+            <li>
+                <a data-param="?_f=index_culnews_0" href="//www.sohu.com/a/397906363_162758" target="_blank" title='今日攻顶！60年前英雄这样征服珠峰'>
+                    <strong>今日攻顶！60年前英雄这样征服珠峰</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_1" href="//www.sohu.com/a/397911518_220095" target="_blank" title='电影全产业链陷入深渊：洗牌来临'>
+                     电影全产业链陷入深渊：洗牌来临
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_2" href="//www.sohu.com/a/397914738_163491" target="_blank" title='阿汤哥合作NASA的太空电影敲定了导演'>
+                     阿汤哥合作NASA的太空电影敲定了导演
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_3" href="//www.sohu.com/a/397881109_100193263" target="_blank" title='书单：人生漫漫，我们该如何学会治愈？'>
+                     书单：人生漫漫，我们该如何学会治愈？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_4" href="//www.sohu.com/a/397862362_423446" target="_blank" title=' 贾母：在最深的红尘里，用最有趣的灵魂，活出最通透的人生'>
+                      贾母：在最深的红尘里，用最有趣的灵魂，活出最通透的人生
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_5" href="//www.sohu.com/a/397902183_119038" target="_blank" title='导演范士广：我只是记录下最纯粹的故事'>
+                     导演范士广：我只是记录下最纯粹的故事
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_culnews_6" href="//www.sohu.com/a/397876696_354961" target="_blank" title='由于对新科技陌生，英国老年人多感到与社会脱节'>
+                     由于对新科技陌生，英国老年人多感到与社会脱节
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        
+         
+            
+        </div>
+        <div class="main-box main-boxE clearfix">
+
+    <div class="main-left mil-news left" style="">
+        <div class="title-cut" data-spm="mil-nav">
+
+
+
+            <span class="tt"><a href="http://mil.sohu.com/ " target="_blank">军事</a></span>
+
+            <span class="link">
+             <a href=" http://mil.sohu.com/1468" target="_blank">国防观察</a>
+             <a href=" http://mil.sohu.com/1469" target="_blank">环球军情</a>
+             <a href=" http://mil.sohu.com/1470" target="_blank">兵器解析</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="mil-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_milfocus_0" href="//www.sohu.com/a/397984378_448414" target="_blank" title='中国军费刚公布，美国就开始叫嚣，吴谦大校的回应很给力'><img data-src="//p4.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/9dce4235645f404ab0f0130501eda561.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="中国军费刚公布，美国就开始叫嚣，吴谦大校的回应很给力">
+                        <span class="txt">中国军费刚公布，美国就开始叫嚣，吴谦大校的回应很给力</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_milfocus_1" href="//www.sohu.com/a/397969110_137871" target="_blank" title='为军事冲突做准备？ 中国下周开始从印度撤侨 万事俱备只欠东风'><img data-src="//p9.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/b53257ae2c564263bededecf00cb2a23.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="为军事冲突做准备？ 中国下周开始从印度撤侨 万事俱备只欠东风">
+                        <span class="txt">为军事冲突做准备？ 中国下周开始从印度撤侨 万事俱备...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="mil-news">
+            <li>
+                <a data-param="?_f=index_milnews_0" href="//www.sohu.com/a/398002330_162522" target="_blank" title='俄罗斯“比基尼护士”获大批女性自拍支持'>
+                    <strong>俄罗斯“比基尼护士”获大批女性自拍支持</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_1" href="//www.sohu.com/a/398001524_115479" target="_blank" title='医疗物资急缺，美国州长被曝曾写信直接向中国求援'>
+                     医疗物资急缺，美国州长被曝曾写信直接向中国求援
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_2" href="//www.sohu.com/a/398001174_162522" target="_blank" title='有没有兴趣坐一坐这架塞斯纳“eCaravan”纯电动飞机'>
+                     有没有兴趣坐一坐这架塞斯纳“eCaravan”纯电动飞机
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_3" href="//www.sohu.com/a/398000515_260616" target="_blank" title='被特朗普无视的CDC：美国疾控中心与流行病斗争的半个世纪'>
+                     被特朗普无视的CDC：美国疾控中心与流行病斗争的半个世纪
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_4" href="//www.sohu.com/a/397999458_162522" target="_blank" title='美军称俄大批战机抹标后飞往利比亚 俄方回应：与事实不符'>
+                     美军称俄大批战机抹标后飞往利比亚 俄方回应：与事实不符
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_5" href="//www.sohu.com/a/397999139_162758" target="_blank" title='特朗普曾吃了一周的“神药” 被世卫组织暂停临床试验'>
+                     特朗普曾吃了一周的“神药” 被世卫组织暂停临床试验
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_milnews_6" href="//www.sohu.com/a/397997936_162522" target="_blank" title='美高级核官员：若总统下令，美国数月内可重启核试验'>
+                     美高级核官员：若总统下令，美国数月内可重启核试验
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left society-news right">
+        <div class="title-cut" data-spm="society-nav">
+
+
+
+            <span class="tt"><a href=" http://www.sohu.com/subject" target="_blank">专题</a></span>
+
+            <span class="link">
+             <a href="http://gongyi.sohu.com/" target="_blank">公益</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="society-pics">
+            <ul>
+                        <li class="">
+                            <a data-param="?_f=index_societyfocus_0" href="//www.sohu.com/subject/320469?scm=1002.3f0063.0.0-0" target="_blank" title='重视农村一线教师资源缺乏、农村学生低分厌学问题  | 两会教育之声'><img data-src="//29e5534ea20a8.cdn.sohucs.com/q_70,c_lfill,w_300,h_200,g_faces/os/news/738fdde0edfc7cc956c47e3ca52c4d49.jpg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="重视农村一线教师资源缺乏、农村学生低分厌学问题  | 两会教育之声">
+                            <span class="txt">重视农村一线教师资源缺乏、农村学生低分厌学问题  | ...</span></a>
+                        </li>
+                        <li class="end">
+                            <a data-param="?_f=index_societyfocus_1" href="//www.sohu.com/subject/320261?scm=1002.3f0063.0.0-0" target="_blank" title='懂股帝 | 华为安防布大局，深交所同时向3只A股发出外资持股预警'><img data-src="//29e5534ea20a8.cdn.sohucs.com/q_70,c_lfill,w_300,h_200,g_faces/os/news/ad9fdc621ecc9d11d2a5569a854183fc.jpg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="懂股帝 | 华为安防布大局，深交所同时向3只A股发出外资持股预警">
+                            <span class="txt">懂股帝 | 华为安防布大局，深交所同时向3只A股发出外...</span></a>
+                        </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="society-news">
+            <li>
+                <a data-param="?_f=index_societynews_0" href="//www.sohu.com/subject/319511?scm=1002.3f0063.0.0-0" target="_blank" title='什么时候全面复学？是否需要对每个师生做核酸检测？教育部权威专家支招 | 搜狐教育专题'>
+                    <strong>什么时候全面复学？是否需要对每个师生做核酸检测？教育部权威专家支招 | 搜狐教育专题</strong>
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_1" href="//www.sohu.com/subject/320487?scm=1002.3f0063.0.0-0" target="_blank" title='特朗普：推特平台干预大选 |今日国际要闻'>
+                     特朗普：推特平台干预大选 |今日国际要闻
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_2" href="//www.sohu.com/subject/320264?scm=1002.3f0063.0.0-0" target="_blank" title='退市前的疯狂？瑞幸股价又作妖，暴涨53%！| 瑞幸事件持续发酵'>
+                     退市前的疯狂？瑞幸股价又作妖，暴涨53%！| 瑞幸事件持续发酵
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_3" href="//www.sohu.com/subject/320481?scm=1002.3f0063.0.0-0" target="_blank" title='"赌王"何鸿燊逝世：5000亿财富版图，家产争夺战谁是赢家？'>
+                     "赌王"何鸿燊逝世：5000亿财富版图，家产争夺战谁是赢家？
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_4" href="//www.sohu.com/subject/319777?scm=1002.3f0063.0.0-0" target="_blank" title='中国大陆雅思取消6月考试 韩国求职者开始接受非正式饭碗 | 搜狐教育专题'>
+                     中国大陆雅思取消6月考试 韩国求职者开始接受非正式饭碗 | 搜狐教育专题
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_5" href="//www.sohu.com/subject/320488?scm=1002.3f0063.0.0-0" target="_blank" title='德甲：莱比锡红牛vs柏林赫塔，客队"关键先生"缺席此战能否斩胜？'>
+                     德甲：莱比锡红牛vs柏林赫塔，客队"关键先生"缺席此战能否斩胜？
+                </a>
+            </li>
+            <li>
+                <a data-param="?_f=index_societynews_6" href="//www.sohu.com/subject/320428?scm=1002.3f0063.0.0-0" target="_blank" title='2020全国两会｜搜狐新闻微视频'>
+                     2020全国两会｜搜狐新闻微视频
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    </div>
+
+        </div>
+        <div class="god-main" data-role="god_column"></div>        
+        <div class="main-box main-boxF clearfix">
+
+    <div class="main-left astro-news left" style="">
+        <div class="title-cut" data-spm="astro-nav">
+
+
+
+            <span class="tt"><a href=" http://astro.sohu.com/" target="_blank">星座</a></span>
+
+            <span class="link">
+             <a href="http://astro.sohu.com/1419 " target="_blank">测算</a>
+             <a href="http://astro.sohu.com/1416 " target="_blank">运势</a>
+             <a href=" http://astro.sohu.com/1417" target="_blank">生肖</a>
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="astro-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_astrofocus_0" href="//www.sohu.com/a/397951777_561136" target="_blank" title='6月贵人登门，事业大吉大利，收获不菲财富的三生肖'><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_190,h_100,g_faces,q_70/images/20200117/854e121f51d84de39b17071a8571c80d.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="6月贵人登门，事业大吉大利，收获不菲财富的三生肖">
+                        <span class="txt">6月贵人登门，事业大吉大利，收获不菲财富的三生肖</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_astrofocus_1" href="//www.sohu.com/a/397943073_567739" target="_blank" title='从来都不争不抢，却总能收获好运，斩获成功的四大生肖'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/e5be9ef3b7ee4b5499543a2820b8e58e.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="从来都不争不抢，却总能收获好运，斩获成功的四大生肖">
+                        <span class="txt">从来都不争不抢，却总能收获好运，斩获成功的四大生肖</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="astro-news">
+            <li>
+                <a data-param="?_f=index_astronews_0" href="//www.sohu.com/a/397997575_100285343" target="_blank" title='不出三天：将会苦尽甘来，喜事、桃花接二连三，3生肖不得了，日子红透半边天'>
+                    <strong>不出三天：将会苦尽甘来，喜事、桃花接二连三，3生肖不得了，日子红透半边天</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_1" href="//www.sohu.com/a/397996996_100285343" target="_blank" title='明天起：将会枯木逢春，喜事、桃花扎堆来，5月底不得了，6月喜事成双找上门'>
+                     明天起：将会枯木逢春，喜事、桃花扎堆来，5月底不得了，6月喜事成双找上门
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_2" href="//www.sohu.com/a/397996695_100285343" target="_blank" title='明天起：将会喜事惹不起、桃花遍地开，6月双喜临门，大富大贵躲不掉'>
+                     明天起：将会喜事惹不起、桃花遍地开，6月双喜临门，大富大贵躲不掉
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_3" href="//www.sohu.com/a/397996676_100285343" target="_blank" title='下周起运势将会雨过天晴，喜事、桃花找上门，6月天天开口笑'>
+                     下周起运势将会雨过天晴，喜事、桃花找上门，6月天天开口笑
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_4" href="//www.sohu.com/a/397914913_120096371" target="_blank" title='从6月起财运机遇上升，被贵人提携，荷包鼓鼓，桃花朵朵开的四星座'>
+                     从6月起财运机遇上升，被贵人提携，荷包鼓鼓，桃花朵朵开的四星座
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_5" href="//www.sohu.com/a/397991962_120037476" target="_blank" title='未来30天，事业红得发紫，“赚大钱发大财”，吉星照耀的四生肖'>
+                     未来30天，事业红得发紫，“赚大钱发大财”，吉星照耀的四生肖
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_astronews_6" href="//www.sohu.com/a/397990530_100285343" target="_blank" title='6月运势不得了，财神爷点大名，3生肖喜事上上签，事业、爱情红透半边天'>
+                     6月运势不得了，财神爷点大名，3生肖喜事上上签，事业、爱情红透半边天
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left pets-news right" style="">
+        <div class="title-cut" data-spm="pets-nav">
+
+
+
+            <span class="tt"><a href=" http://pets.sohu.com/" target="_blank">宠物</a></span>
+
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="pets-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_petsfocus_0" href="//www.sohu.com/a/398000124_119816" target="_blank" title='袁姗姗拍戏时被一只流浪狗缠上，撵都撵不走……'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/3baf8dd22e464ec28ee1abac41c578bf.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="袁姗姗拍戏时被一只流浪狗缠上，撵都撵不走……">
+                        <span class="txt">袁姗姗拍戏时被一只流浪狗缠上，撵都撵不走……</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_petsfocus_1" href="//www.sohu.com/a/397954548_415938" target="_blank" title='男子送二哈回乡下改造，本以为问题不大，几天后老妈却让他赔钱'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/c3b6e7f8d8e741d79957baf2fb6c197f.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="男子送二哈回乡下改造，本以为问题不大，几天后老妈却让他赔钱">
+                        <span class="txt">男子送二哈回乡下改造，本以为问题不大，几天后老妈却...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="pets-news">
+            <li>
+                <a data-param="?_f=index_petsnews_0" href="//www.sohu.com/a/397991395_100143891" target="_blank" title='女子发现宝宝把猫咪当枕头，却一点都不慌张：真是一物降一物呀'>
+                    <strong>女子发现宝宝把猫咪当枕头，却一点都不慌张：真是一物降一物呀</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_1" href="//www.sohu.com/a/397991436_162758" target="_blank" title='七旬老人27年养600只流浪猫：“退休金基本都给猫花了”'>
+                     七旬老人27年养600只流浪猫：“退休金基本都给猫花了”
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_2" href="//www.sohu.com/a/397988125_100145165" target="_blank" title='宠物美容师：不是我喜欢换工作，是我想找个好老板！'>
+                     宠物美容师：不是我喜欢换工作，是我想找个好老板！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_3" href="//www.sohu.com/a/397924642_100060664" target="_blank" title='你家狗狗也能搭地铁，专门为宠物设置的车厢，想上车有必要了解下'>
+                     你家狗狗也能搭地铁，专门为宠物设置的车厢，想上车有必要了解下
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_4" href="//www.sohu.com/a/397924397_100060664" target="_blank" title='自家金毛总是生病，朋友给他出了一个主意，再见到金毛顿时傻眼了'>
+                     自家金毛总是生病，朋友给他出了一个主意，再见到金毛顿时傻眼了
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_5" href="//www.sohu.com/a/397985222_381417" target="_blank" title='78岁老人遛狗未拴绳，被64岁大爷打了，孰对孰错？'>
+                     78岁老人遛狗未拴绳，被64岁大爷打了，孰对孰错？
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_petsnews_6" href="//www.sohu.com/a/397978791_100248202" target="_blank" title='小主人“面壁思过”，猫咪站起来摸小主人：别难过，有本喵陪你'>
+                     小主人“面壁思过”，猫咪站起来摸小主人：别难过，有本喵陪你
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        </div>
+        <div class="main-box main-boxG clearfix main-box-end">
+
+    <div class="main-left acg-news left" style="">
+        <div class="title-cut" data-spm="acg-nav">
+
+
+
+            <span class="tt"><a href=" http://acg.sohu.com/" target="_blank">动漫</a></span>
+
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="acg-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_acgfocus_0" href="//www.sohu.com/a/397994742_99897991" target="_blank" title='【佳作】炮多就是正义！八彩大炮F91'><img data-src="//p7.itc.cn/c_fill,w_600,h_300,g_faces/images03/20200527/b1b0d7011d6f42a9b9f5a0b0346bc2f3.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="【佳作】炮多就是正义！八彩大炮F91">
+                        <span class="txt">【佳作】炮多就是正义！八彩大炮F91</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_acgfocus_1" href="//www.sohu.com/a/397956804_100128132" target="_blank" title='海贼王cosplayers发起新的接力挑战赛，冲田杏梨参加此次活动'><img data-src="//p4.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/1531bcae9fdb421a8d919f4b74d53e23.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="海贼王cosplayers发起新的接力挑战赛，冲田杏梨参加此次活动">
+                        <span class="txt">海贼王cosplayers发起新的接力挑战赛，冲田杏梨参加此...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="acg-news">
+            <li>
+                <a data-param="?_f=index_acgnews_0" href="//www.sohu.com/a/398002544_260616" target="_blank" title='案发10月后，京阿尼纵火案嫌犯正式被捕'>
+                    <strong>案发10月后，京阿尼纵火案嫌犯正式被捕</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_1" href="//www.sohu.com/a/398002149_555214" target="_blank" title='《英雄传说创之轨迹》最新情报 挑战真梦幻回廊'>
+                     《英雄传说创之轨迹》最新情报 挑战真梦幻回廊
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_2" href="//www.sohu.com/a/398001191_550365" target="_blank" title='一个月前索尼入股B站，我预测会因此买一波番，结果果真如此！'>
+                     一个月前索尼入股B站，我预测会因此买一波番，结果果真如此！
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_3" href="//www.sohu.com/a/398001167_100166598" target="_blank" title='火影忍者：秘卷能当霸体用？细数你不知道的冷知识，萌新必看'>
+                     火影忍者：秘卷能当霸体用？细数你不知道的冷知识，萌新必看
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_4" href="//www.sohu.com/a/398002607_532686" target="_blank" title='Fate/Grand Order 玛修cosplay'>
+                     Fate/Grand Order 玛修cosplay
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_5" href="//www.sohu.com/a/398002154_532686" target="_blank" title='网球王子 冰帝cosplay'>
+                     网球王子 冰帝cosplay
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_acgnews_6" href="//www.sohu.com/a/398002061_532686" target="_blank" title='LOVE LIVE 星空凛cosplay'>
+                     LOVE LIVE 星空凛cosplay
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+
+    <div class="main-left game-news right" style="">
+        <div class="title-cut" data-spm="game-nav">
+
+
+
+            <span class="tt"><a href=" http://game.sohu.com/" target="_blank">游戏</a></span>
+
+        </span>
+        </div>
+        <div class="picture-group clearfix" data-spm="game-pics">
+            <ul>
+                    <li class="">
+                        <a data-param="?_f=index_gamefocus_0" href="//www.sohu.com/a/398001949_430858" target="_blank" title='圣枪哥确认留队，狼行出走LGD，Uzi的S10是不是没希望了？'><img data-src="//p2.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/3d38423e309e47bf8cdf69ef546d78aa.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="圣枪哥确认留队，狼行出走LGD，Uzi的S10是不是没希望了？">
+                        <span class="txt">圣枪哥确认留队，狼行出走LGD，Uzi的S10是不是没希望...</span></a>
+                    </li>
+                    <li class="end">
+                        <a data-param="?_f=index_gamefocus_1" href="//www.sohu.com/a/397961045_118576" target="_blank" title='王者荣耀：最有故事的id，男生看了惋惜，v8玩家也买不来这东西'><img data-src="//p8.itc.cn/c_fill,w_600,h_300,g_faces/images01/20200527/42671f30d5b142e8b7304cd857948522.jpeg"  src=//statics.itc.cn/web/static/images/pic/preload_2_1.png alt="王者荣耀：最有故事的id，男生看了惋惜，v8玩家也买不来这东西">
+                        <span class="txt">王者荣耀：最有故事的id，男生看了惋惜，v8玩家也买不...</span></a>
+                    </li>
+            </ul>
+        </div>
+         <div class="list16">
+        <ul data-spm="game-news">
+            <li>
+                <a data-param="?_f=index_gamenews_0" href="//www.sohu.com/a/398004396_118576" target="_blank" title='梦幻西游：平民无法参与PK？做好这两步，只要有梦一样能追'>
+                    <strong>梦幻西游：平民无法参与PK？做好这两步，只要有梦一样能追</strong>
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_1" href="//www.sohu.com/a/398004408_634138" target="_blank" title='老外票选LOL季中杯中单排名：Faker拿下第一，Yagao倒数第三'>
+                     老外票选LOL季中杯中单排名：Faker拿下第一，Yagao倒数第三
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_2" href="//www.sohu.com/a/398003711_100113016" target="_blank" title='虎牙独播Nest：4AM遗憾落败，ELG触底反弹'>
+                     虎牙独播Nest：4AM遗憾落败，ELG触底反弹
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_3" href="//www.sohu.com/a/398003169_430858" target="_blank" title='又一个天才选手？LPL战队二队打野登顶韩服，年仅15岁'>
+                     又一个天才选手？LPL战队二队打野登顶韩服，年仅15岁
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_4" href="//www.sohu.com/a/398003139_100024181" target="_blank" title='取代Dopa路人王后，金灿毅还要当SOLO王？霸哥输的原因终于找到了'>
+                     取代Dopa路人王后，金灿毅还要当SOLO王？霸哥输的原因终于找到了
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_5" href="//www.sohu.com/a/398004512_99956743" target="_blank" title='[图]创始人谈Windows任务管理器：理论上可杀死所有进程'>
+                     [图]创始人谈Windows任务管理器：理论上可杀死所有进程
+                </a>
+            </li>
+
+            <li>
+                <a data-param="?_f=index_gamenews_6" href="//www.sohu.com/a/398002825_430858" target="_blank" title='Doinb队霸实锤了！FPX夏季赛名单小彩蛋！他们也要学G2？'>
+                     Doinb队霸实锤了！FPX夏季赛名单小彩蛋！他们也要学G2？
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    </div>
+
+        </div>
+    </div>
+     <div class="sidebar right">
+            <div class="godR" data-role="godR">
+                
+            </div>
+<div class="star-rank clearfix bordR" data-role="rank-list">
+    
+</div>            <div class="bordR godR" data-role="godR">
+               
+            </div>
+            <div class="bordR fun-frag clearfix plugin plugin-side-right" data-role="joke-hot-news" style="display:block">
+              
+            </div>
+            <div class="bordR godR" data-role="godR">
+                
+            </div>
+            <div class="extend-mod other-modA bordR" >
+            
+            </div>
+             <div class="bordR godR" data-role="godR">
+
+            </div>
+         
+            <!--动态-->
+     
+            <div data-role="sohu-focus-list" class="extend-mod other-modB bordR"></div>
+
+             <div class="bordR godR" data-role="godR">
+            </div>
+            
+         
+             <div class="bordR godR" data-role='god_promotion'>   
+            </div>
+             <div class="god-cut" data-role='god_promotion'>   
+            </div>
+           
+        </div>
+</div>    <div class="god-cut area" data-role="god_column"></div>
+<div class="service-info area clearfix">
+    <div class="report">
+        <ul style="padding-left: 50px;">
+            <li>
+                <a href="http://www.12377.cn/" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic02.gif" alt="">中国互联网<br>举报中心</a>
+            </li>
+            <li>
+                <a href="http://www.bjjubao.org/" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic03.gif" alt="">北京互联网<br>举报中心</a>
+            </li>
+            <li>
+                <a href="http://www.bnia.cn" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic04.gif" alt="">北京网络<br>行业协会</a>
+            </li>
+            <li>
+                <a href="http://www.cyberpolice.cn/" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic05.gif" alt="">网络 110<br>报警服务</a>
+            </li>
+            <li>
+                <a href="http://www.isc.org.cn/" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic07.gif" alt="">中国<br>互联网协会</a>
+            </li>
+            <li>
+                <a href="http://whzf.beijing.gov.cn/bjwhzfhd/accuse.do" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic08.gif" alt="">北京文化市<br>场举报热线</a>
+            </li>
+            <li>
+                <a href="http://www.baom.com.cn/" target="_blank"><img src="//statics.itc.cn/web/v3/static/images/pic/service/pic09.gif" alt="">首都互联<br>网协会</a>
+            </li>
+        </ul>
+    </div>
+    <div class="license clearfix">
+        <div class="left boxA">
+            <p><a href="http://h5.sohu.com/about/valueAddLicence.html" target="_blank">增值电信业务经营许可证B2-20090148</a> <a href="//h5.sohu.com/about/icp.html"
+                    target="_blank">京ICP证 030367号</a></p>
+            <p><a href="//h5.sohu.com/about/NetworkLicense.html" target="_blank">网络文化经营许可证 京网文【2014】0935-235号</a></p>
+            <p>
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000011"><img src="http://www.sohu.com/upload/images/server/ghs.png">京公网安备 11000002000011号</a>
+            </p>
+        </div>
+        <div class="left boxB">
+            <p><a href="http://www.sohu.com/upload/uiue20171218/vz_sohu.html" target="_blank">信息网络传播视听节目许可证</a></p>
+            <p><a href="http://www.sohu.com/upload/uiue20180829/xkz_sohu.html" target="_blank">互联网新闻信息服务许可证</a></p>
+            <p><a href="http://www.sohu.com/upload/uiue20171218/chubanwu.html" target="_blank">出版物经营许可证</a></p>
+        </div>
+        <div class="left boxC">
+            <p><a href="http://py.qianlong.com/" target="_blank">北京地区网站联合辟谣平台</a></p>
+            <p><a href="http://www.sohu.com/upload/uiue20171218/chban.html" target="_blank">网络出版服务许可证</a> <a href="http://www.creditchina.gov.cn/"
+                    target="_blank">信用中国</a></p>
+            <p><a href="//h5.sohu.com/about/beian.html" target="_blank">工商备案公示信息</a></p>
+        </div>
+        <div class="left boxD">
+            <p><a href="http://www.sohu.com/upload/uiue20150210/ylbj_sohu.html" target="_blank">互联网医疗保健信息服务复核同意书&nbsp;&nbsp;京卫网审［2014］第0386号</a></p>
+            <p><a href="//h5.sohu.com/about/PharmaceuticalCertificate.html" target="_blank">互联网药品信息服务资格证书 (京)经营性-2014-0013</a></p>
+            <p><a href="//h5.sohu.com/about/RadioLicense.html" target="_blank">广播电视节目制作经营许可证 (京)字第434号</a></p>
+        </div>
+    </div>
+    <div class="hotline clearfix">
+        <div class="left wdA">客服投诉热线：010-62726666</div>
+        <div class="left wdB">违法和不良信息举报电话：4006809007</div>
+        <div class="left wdC">广告投诉电话：4008905505</div>
+        <div class="left wdD">客服邮箱：<a href="mailto:kf@vip.sohu.com">kf@vip.sohu.com</a></div>
+        <div class="left wdE">举报邮箱：<a href="mailto:jubaosohu@sohu-inc.com">jubaosohu@sohu-inc.com</a></div>
+    </div>
+</div> <footer class="footer area">
+        <p><a href="http://pinyin.sogou.com/" target="_blank" rel="nofollow">搜狗输入法</a> - <a href="http://pay.sohu.com/" target="_blank" rel="nofollow">支付中心</a> - <a href="http://hr.sohu.com/" target="_blank" rel="nofollow">搜狐招聘</a> - <a href="http://ad.sohu.com/" target="_blank" rel="nofollow">广告服务</a> - <a href="//intro.sohu.com/contact" target="_blank" rel="nofollow">联系方式</a> - <a href="http://investors.sohu.com/" target="_blank" rel="nofollow">About SOHU</a> - <a href="//intro.sohu.com" target="_blank" rel="nofollow">公司介绍</a> - <a href="//intro.sohu.com/privacy" target="_blank" rel="nofollow">隐私政策</a></p>
+        <p>Copyright © 2020 Sohu All Rights Reserved. 搜狐公司 <a href="//intro.sohu.com/copyright" target="_blank" rel="nofollow">版权所有</a></p>
+    </footer>         <div id="float-btn" class="float-links"></div>
+<div id="pop-news" class="pop-news"></div>    </div>
+
+
+
+<script src="//statics.itc.cn/web/v3/static/js/lib-61587d9fb8.js"></script>
+<script src="//39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+<!--<script src="//statics.itc.cn/web/v3/static/js/ie8hack-07e05e83f1.js"></script>-->
+<script src="//txt.go.sohu.com/ip/soip"></script>
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer"></script>
+<script src="//statics.itc.cn/web/v3/static/js/main-79584502db.js"></script>
+
+        <script charset="utf8">
+            try {
+                window.sohu_mp.sohu_idnex_v3({
+                    focus:[
+                      {"id":"397,949,972","path":"https://www.sohu.com/a/397949972_114988","title":"2020珠峰高程测量登山队登顶珠峰！","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_899,h_599/os/news/acdec64efdf469840c111fddc9ac9bc3.jpg","mediaId":"114,988"},
+
+                      {"id":"397,912,949","path":"https://www.sohu.com/a/397912949_260616","title":"国外累计确诊559万例，美国病亡破10万","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_22,y_1,w_465,h_310/os/news/5727fcfd311cd792e7bcfacab1fe7b28.jpg","mediaId":"260,616"},
+
+                      {"id":"397,914,833","path":"https://www.sohu.com/a/397914833_115362","title":"美股大涨500点！牛市要来了？","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_549,h_366/os/news/fa6aec1bf737753ed0028a039853c1ca.jpg","mediaId":"115,362"},
+
+                      {"id":"397,935,958","path":"https://www.sohu.com/a/397935958_115479","title":"俄两架苏-35左右包夹拦截美巡逻机","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_500,h_333/os/news/d2349c8a20182ed3e7f00979056d6e6c.jpg","mediaId":"115,479"},
+
+                      {"id":"397,931,709","path":"https://www.sohu.com/picture/397931709","title":"黄河边发现大型古墓群 文物2000余件","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_2,w_899,h_599/os/news/824b2bd700b0db190236af35de6206e3.jpg","mediaId":"99,984,058"},
+
+                      {"id":"397,984,665","path":"https://www.sohu.com/a/397984665_260616","title":"27年来最严重蝗灾侵袭印度","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_8,y_8,w_481,h_321/os/news/bdf9ec8b99ce42c01426c72171ba2025.jpg","mediaId":"260,616"},
+
+                      {"id":"397,912,640","path":"https://www.sohu.com/a/397912640_123753","title":"世卫官员:美洲国家放松防疫限制尚早","picUrl":"http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_17,w_700,h_466/os/news/607f9dbe9a2ee32c13222229b10bdab1.jpg","mediaId":"123,753"}
+
+                    ]
+                })
+
+            } catch (e) {
+                console.log(e)
+                    // Raven.captureException(e);
+                    // 此处应捕获错误
+            }
+        </script>
+<script src="//statics.itc.cn/spm/prod/js/1.0.1.enhance.1/index.js"></script>
+<!-- <script src="//statics.itc.cn/spm/prod/js/1.0.1/index.js"></script> --><!--[if lt IE 8]>
+<script type="text/javascript">
+(function(){
+    var ua = navigator.userAgent;
+    var version;
+    var html = '<div class="area clear">' +
+        '<div class="ie-low">' +
+        '<p>您的浏览器版本过低<br>为了更好的体验，请升级你的浏览器。</p>' +
+        '<h5><a href="https://ie.sogou.com" target="_blank" class="upgrade-btn">马上升级</a></h5>' +
+        '</div></div>';
+    if (/MSIE ([^;]+)/.test(ua)) {
+        version = parseInt(RegExp["$1"]);
+        if (version<8) {
+            document.body.innerHTML=html;
+            var reg = new RegExp("(^| )SUV=([^;]*)(;|$)");
+            var suvs = unescape(document.cookie.match(reg)[2]); 
+            var spv_server_src = "http://pv.sohu.com/action.gif?actionId=10210078&SUV="+suvs;
+            var scripts = document.createElement('script');
+            scripts.src = spv_server_src;
+            document.body.appendChild(scripts);   
+            Raven.captureException(new Error('ie'+version));        
+        }
+    }
+})()
+</script>
+<![endif]--><script src="//js.sohu.com/libpv.js"></script>
+<!--<script src="//txt.go.sohu.com/ip/soip"></script>-->
+<script src="//images.sohu.com/bill/default/sohu-require.js"></script>
+<script type="text/javascript"> require(["sjs/matrix/ad/passion"]);</script>
+<script type="text/javascript" src="//www.sohu.com/sohuflash_1.js"></script>
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/form/delivery.js"></script>
+
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/pv/pagePVmonitor.js"></script>
+
+
+
+    <script src="//statics.itc.cn/index/reyzar.statistics-0.02-min.js"></script>
+    
+</body>
+</html>

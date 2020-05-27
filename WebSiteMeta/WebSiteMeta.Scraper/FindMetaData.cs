@@ -36,8 +36,7 @@ namespace WebSiteMeta.Scraper
             {
                 return Fail($"Invalid URL: {cleanUrl}");
             }
-
-            var data = new Metadata();
+            
             var httpDataResult = await _httpClientWrapper.GetHttpData(cleanUrl, encoding);
             if (!httpDataResult.isSuccess)
             {
@@ -68,12 +67,48 @@ namespace WebSiteMeta.Scraper
                 charset = encoding.WebName;
             }
 
+            var data = AssignResults(headNode, charset);
+
+            return Success(data);
+        }
+
+        private Metadata AssignResults(HtmlNode headNode, string charset)
+        {
+            var data = new Metadata();
             data.Charset = charset;
             data.Title = GetTitle(headNode);
             data.Description = GetDescription(headNode);
             data.Url = GetUrl(headNode);
 
-            return Success(data);
+            data.Meta = GetMeta(headNode);
+
+            return data;
+        }
+
+        private Dictionary<string, string> GetMeta(HtmlNode headNode)
+        {
+            var metaDataList = new Dictionary<string, string>();
+
+            var nodes = headNode.SelectNodes($"//meta");
+            foreach (var node in nodes)
+            {
+                string name = node.GetAttributeValue("name", string.Empty);
+                if (string.IsNullOrWhiteSpace(name))
+                {
+                    name = node.GetAttributeValue("property", string.Empty);
+                    if (string.IsNullOrWhiteSpace(name))
+                    {
+                        continue;
+                    }
+                }
+
+                if (metaDataList.ContainsKey(name)) continue; // Don't deal with multiple values
+
+                string value = node.GetAttributeValue("content", string.Empty);                
+                metaDataList.Add(name, value);
+            }
+
+            return metaDataList;
         }
 
         private string GetUrl(HtmlNode headNode)

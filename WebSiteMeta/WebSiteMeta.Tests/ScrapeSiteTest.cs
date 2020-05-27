@@ -118,5 +118,32 @@ namespace WebSiteMeta.Tests
             Assert.Equal("gb2312", result.Metadata.Charset);
             Assert.Equal("腾讯首页", result.Metadata.Title);
         }
+
+        [Fact]
+        public async Task RunScrape_Chinese_DetectCharset_Utf8()
+        {
+            // Arrange
+            SetupTest(@"SampleSites/sohu.com.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal("utf-8", result.Metadata.Charset);
+            Assert.Equal("搜狐", result.Metadata.Title);
+        }
+
+        [Fact]
+        public async Task RunScrape_SimpleTest_MetaValues()
+        {
+            // Arrange
+            SetupTest(@"SampleSites/simpletest.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal(9, result.Metadata.Meta.Count);
+        }
     }
 }

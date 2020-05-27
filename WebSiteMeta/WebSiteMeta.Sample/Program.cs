@@ -136,7 +136,12 @@ namespace WebSiteMeta.Sample
                 OutputValue("Charset", result.Metadata.Charset, charset);
                 OutputValue("Url", result.Metadata.Url, charset);
                 OutputValue("Title", result.Metadata.Title, charset);
-                OutputValue("Description", result.Metadata.Description, charset);                
+                OutputValue("Description", result.Metadata.Description, charset);   
+                
+                foreach (var meta in result.Metadata.Meta)
+                {
+                    OutputValue(meta.Key, meta.Value, charset);
+                }
             }
         }
 
