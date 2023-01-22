@@ -58,7 +58,8 @@ namespace WebSiteMeta.Sample
                 "alexa.com",
                 "baidu.com",
                 "qq.com",
-                "sohu.com"
+                "sohu.com",
+                "https://storybook.js.org/"
             };
         }
 

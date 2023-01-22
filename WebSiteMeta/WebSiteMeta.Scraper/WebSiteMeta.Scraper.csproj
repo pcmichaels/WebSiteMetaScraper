@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Paul Michaels</Company>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Description>Returns basic site metadata for a given URL</Description>
     <Authors>Paul Michaels</Authors>
     <Copyright>Paul Michaels</Copyright>
+    <ApplicationIcon>Assets/scraper.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

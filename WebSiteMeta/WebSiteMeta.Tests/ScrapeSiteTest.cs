@@ -145,5 +145,19 @@ namespace WebSiteMeta.Tests
             // Assert
             Assert.Equal(9, result.Metadata.Meta.Count);
         }
+
+        [Fact]
+        public async Task RunScrape_YouTube()
+        {
+            // Arrange
+            SetupTest(@"SampleSites/YouTube.txt");
+
+            // Act
+            var result = await _scraper.Run("www.test.com");
+
+            // Assert
+            Assert.Equal("YouTube", result.Metadata.Title);            
+        }
+
     }
 }
