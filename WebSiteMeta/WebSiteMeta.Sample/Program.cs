@@ -45,6 +45,7 @@ namespace WebSiteMeta.Sample
                 "www.pmichaels.net",
                 "http://sun.com",
                 "https://www.stackoverflow.com",
+                "https://www.youtube.com/watch?v=iTRILNstmFI",
                 "www.microsoft.com",
                 "msdn.com",
                 "<script>alert('xss')</script>",

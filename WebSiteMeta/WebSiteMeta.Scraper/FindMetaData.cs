@@ -135,8 +135,8 @@ namespace WebSiteMeta.Scraper
         }
 
         private string GetCharset(HtmlNode htmlNode)
-        {
-            string charset = GetAttribute(htmlNode, "//meta/@charset");
+        {            
+            string charset = GetAttribute(htmlNode, "//meta/@charset", "charset");
             return charset;
         }
 
@@ -153,10 +153,10 @@ namespace WebSiteMeta.Scraper
             return title;
         }
 
-        private string GetAttribute(HtmlNode headNode, string xPath)
+        private string GetAttribute(HtmlNode headNode, string xPath, string attributeName)
         {            
             var node = headNode.SelectSingleNode($"{xPath}");
-            return node?.Attributes?.FirstOrDefault()?.Value;
+            return node?.Attributes?.FirstOrDefault(a => a.Name == attributeName)?.Value;
         }
 
         private string GetProperty(HtmlNode headNode, string type, string attribute, string name)
