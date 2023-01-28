@@ -1,13 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Company>Paul Michaels</Company>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
     <Description>Returns basic site metadata for a given URL</Description>
     <Authors>Paul Michaels</Authors>
     <Copyright>Paul Michaels</Copyright>
     <ApplicationIcon>Assets/scraper.ico</ApplicationIcon>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

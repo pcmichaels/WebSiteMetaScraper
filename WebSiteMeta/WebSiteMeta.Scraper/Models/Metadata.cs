@@ -10,5 +10,6 @@ namespace WebSiteMeta.Scraper
         public string Description { get; set; }
         public string Charset { get; set; }
         public Dictionary<string, string> Meta { get; internal set; }
+        public string[]? Keywords { get; internal set; }
     }
 }

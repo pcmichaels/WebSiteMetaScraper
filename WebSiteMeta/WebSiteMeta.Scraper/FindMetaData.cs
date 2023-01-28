@@ -68,6 +68,10 @@ namespace WebSiteMeta.Scraper
             }
 
             var data = AssignResults(headNode, charset);
+            if (string.IsNullOrWhiteSpace(data.Url))
+            {
+                data.Url = url;
+            }
 
             return Success(data);
         }
@@ -79,6 +83,7 @@ namespace WebSiteMeta.Scraper
             data.Title = GetTitle(headNode);
             data.Description = GetDescription(headNode);
             data.Url = GetUrl(headNode);
+            data.Keywords = GetKeywords(headNode);
 
             data.Meta = GetMeta(headNode);
 
@@ -117,7 +122,7 @@ namespace WebSiteMeta.Scraper
             if (node != null)
             {
                 string link = node.Attributes.FirstOrDefault(a => a.Name == "href")?.Value;
-                if (!string.IsNullOrWhiteSpace(link)) return link;
+                if (!string.IsNullOrWhiteSpace(link) && link != "null") return link;
             }
 
             return GetProperty(headNode, "meta", "property", "og:url");
@@ -132,6 +137,30 @@ namespace WebSiteMeta.Scraper
 
             return description;
 
+        }
+
+        private string[]? GetKeywords(HtmlNode headNode)
+        {
+            string keywords = GetProperty(headNode, "meta", "name", "keywords");
+            if (!string.IsNullOrWhiteSpace(keywords))
+            {
+                return keywords
+                    .Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(a => a.Trim())
+                    .ToArray();
+            }
+
+            keywords = GetProperty(headNode, "meta", "property", "og:keywords");
+
+            if (!string.IsNullOrWhiteSpace(keywords))
+            {
+                return keywords
+                    .Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(a => a.Trim())
+                    .ToArray();
+            }
+
+            return null; 
         }
 
         private string GetCharset(HtmlNode htmlNode)

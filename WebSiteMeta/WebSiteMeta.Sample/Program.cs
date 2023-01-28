@@ -138,8 +138,9 @@ namespace WebSiteMeta.Sample
                 OutputValue("Charset", result.Metadata.Charset, charset);
                 OutputValue("Url", result.Metadata.Url, charset);
                 OutputValue("Title", result.Metadata.Title, charset);
-                OutputValue("Description", result.Metadata.Description, charset);   
-                
+                OutputValue("Description", result.Metadata.Description, charset);
+                OutputValues("Keywords", result.Metadata.Keywords, charset);
+
                 foreach (var meta in result.Metadata.Meta)
                 {
                     OutputValue(meta.Key, meta.Value, charset);
@@ -165,6 +166,31 @@ namespace WebSiteMeta.Sample
             else
             {                
                 Console.WriteLine($"{key}: {value}");
+            }
+            Console.ResetColor();
+        }
+
+        private static void OutputValues(string key, string[] value, Encoding encoding)
+        {
+            if (value == null)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"{key}: NOT SET");
+                return;
+            }
+
+            Console.OutputEncoding = encoding;
+            foreach (var valueItem in value)
+            {
+                if (string.IsNullOrWhiteSpace(valueItem))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"{key}: NOT SET");
+                }
+                else
+                {
+                    Console.WriteLine($"{key}: {valueItem}");
+                }
             }
             Console.ResetColor();
         }
